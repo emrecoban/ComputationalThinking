@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sonuç - Bilgisayarca Düşünme Skor</title>
+  <title>Result - Computational Thinking Score</title>
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
@@ -49,7 +49,7 @@
 
           if($_SERVER['REQUEST_METHOD'] == 'POST'){
               
-          //Anket
+/*           //Anket
           $anket1 = isset($_POST["anket1"]) ? $_POST["anket1"] : "";
           $anket2 = isset($_POST["anket2"]) ? $_POST["anket2"] : "";
           $anket3 = isset($_POST["anket3"]) ? $_POST["anket3"] : "";
@@ -71,7 +71,7 @@
           $anket19 = isset($_POST["anket19"]) ? $_POST["anket19"] : "";
           $anket20 = isset($_POST["anket20"]) ? $_POST["anket20"] : "";
           $anket21 = isset($_POST["anket21"]) ? $_POST["anket21"] : "";
-          $anket22 = isset($_POST["anket22"]) ? $_POST["anket22"] : "";  
+          $anket22 = isset($_POST["anket22"]) ? $_POST["anket22"] : "";   */
 
           //Soru1
           $s1_c1 = isset($_POST["s1_c1"]) ? $_POST["s1_c1"] : "";
@@ -194,47 +194,47 @@
         ?>
         
         <div class="jumbotron">
-          <h3 class="display-5">Bilgisayarca Düşünme Skor Sonucu</h1>
-          <p class="lead"><?=date("d.m.Y");?> tarihinde 12 soru üzerinden 7 farklı beceri puanı hesaplanmıştır.</p>
+          <h3 class="display-5">Computational Thinking Score Result</h1>
+          <p class="lead">On <?=date("d.m.Y");?>, 7 different skill scores were calculated over 12 questions.</p>
           <hr class="my-4">
           <?php if ($conn->query($sql) === TRUE) { ?>
           <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Tebrikler!</h4>
-            <p>Sevgili <span class="text-uppercase"><?=$AdSoyad?></span>, Bilgisayarca Düşünme Skor testini başarıyla tamamladın.</p>
+            <h4 class="alert-heading">Congratulations!</h4>
+            <p>Sevgili <span class="text-uppercase"><?=$AdSoyad?></span>, you have successfully completed the Computational Thinking Score test.</p>
           </div>
           <?php } else { ?>
           <div class="alert alert-danger" role="alert">
-            <h4 class="alert-heading">Kayıt yapılamadı.</h4>
-            <p>Sevgili <span class="text-uppercase"><?=$AdSoyad?></span>, Bilgisayarca Düşünme Skor testi hesaplanırken bazı sorunlar oluştu. Ayrıntılar: <?=$conn->error?></p>
+            <h4 class="alert-heading">Failed to register.</h4>
+            <p>Dear <span class="text-uppercase"><?=$AdSoyad?></span>, Some problems occurred while calculating the Computational Thinking Score test. Details <?=$conn->error?></p>
           </div>
           <?php } $conn->close(); }else{ ?>
         <div class="jumbotron">
-          <h3 class="display-5">Bilgisayarca Düşünme Skor Sonucu</h1>
-          <p class="lead"><a href="start.php" class="badge badge-primary">Yeniden Başla</a></p>
+          <h3 class="display-5">Computational Thinking Score Result</h1>
+          <p class="lead"><a href="start.php" class="badge badge-primary">Start Again</a></p>
           <hr class="my-4">
           <div class="alert alert-danger" role="alert">
-            <h4 class="alert-heading">Puan Hesaplanamadı</h4>
-            <p>Bilgisayarca Düşünme Skor testi hesaplanırken bazı sorunlar oluştu.</p>
+            <h4 class="alert-heading">Failed to Calculate Score</h4>
+            <p>There were some problems calculating the Computational Thinking Score test.</p>
           </div>
           <?php } ?>
           <div class="container-fluid">
             <div class="row">
-              <div class="col m-2 p-2 bg-warning rounded-lg text-light text-center"><h4 class=""><?=$puan_total?>/120</h4> TOPLAM</div>
+              <div class="col m-2 p-2 bg-warning rounded-lg text-light text-center"><h4 class=""><?=$puan_total?>/120</h4> TOTAL</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-success rounded-lg text-light text-center"><h4 class=""><?=$puan_s?>/20</h4> Soyutlama</div>
-              <div class="col m-2 p-2 bg-primary rounded-lg text-light text-center"><h4 class=""><?=$puan_a?>/10</h4> Ayrıştırma</div>
+              <div class="col m-2 p-2 bg-success rounded-lg text-light text-center"><h4 class=""><?=$puan_s?>/20</h4> Abstraction</div>
+              <div class="col m-2 p-2 bg-primary rounded-lg text-light text-center"><h4 class=""><?=$puan_a?>/10</h4> Decomposition</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-secondary rounded-lg text-light text-center"><h4 class=""><?=$puan_ot?>/10</h4> Örüntü Tanıma</div>
-              <div class="col m-2 p-2 bg-danger rounded-lg text-light text-center"><h4 class=""><?=$puan_yd?>/20</h4> Yaratıcı Düşünme</div>
+              <div class="col m-2 p-2 bg-secondary rounded-lg text-light text-center"><h4 class=""><?=$puan_ot?>/10</h4> Recognition Pattern</div>
+              <div class="col m-2 p-2 bg-danger rounded-lg text-light text-center"><h4 class=""><?=$puan_yd?>/20</h4> Creative Thinking</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-info rounded-lg text-light text-center"><h4 class=""><?=$puan_kd?>/10</h4> Eleştirel Düşünme</div>
-              <div class="col m-2 p-2 bg-dark rounded-lg text-light text-center"><h4 class=""><?=$puan_ad?>/30</h4> Algoritmik Düşünme</div>
+              <div class="col m-2 p-2 bg-info rounded-lg text-light text-center"><h4 class=""><?=$puan_kd?>/10</h4> Critical Thinking</div>
+              <div class="col m-2 p-2 bg-dark rounded-lg text-light text-center"><h4 class=""><?=$puan_ad?>/30</h4> Algorithmic Thinking</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-light rounded-lg text-dark text-center"><h4 class=""><?=$puan_pc?>/20</h4> Problem Çözme</div>
+              <div class="col m-2 p-2 bg-light rounded-lg text-dark text-center"><h4 class=""><?=$puan_pc?>/20</h4> Problem Solving</div>
             </div>
           </div>
         </div>

@@ -5,19 +5,19 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link text-primary" href="about.php">Hakkında</a>
+            <a class="nav-link text-primary" href="about.php">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-primary" href="computational-thinking.php">Bilgisayarca Düşünme</a>
+            <a class="nav-link text-primary" href="computational-thinking.php">Computational Thinking</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-primary" href="publications.php">Akademik Yayınlar</a>
+            <a class="nav-link text-primary" href="publications.php">Publications</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-primary" href="faqs.php">Sıkça Sorulan Sorular</a>
+            <a class="nav-link text-primary" href="faqs.php">FAQ</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-primary" href="contact.php">İletişim</a>
+            <a class="nav-link text-primary" href="contact.php">Contact</a>
         </li>
         </ul>
     </div>
