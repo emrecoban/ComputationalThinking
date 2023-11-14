@@ -318,9 +318,6 @@
                           <div class="anahtarKutu" id="key24" ondrop="drop(event)" ondragover="allowDrop(event)">24</div>
                           <div class="anahtarKutu" id="key25" ondrop="drop(event)" ondragover="allowDrop(event)">25</div>
                           <div class="anahtarKutu" id="key26" ondrop="drop(event)" ondragover="allowDrop(event)">26</div>
-                          <div class="anahtarKutu" id="key27" ondrop="drop(event)" ondragover="allowDrop(event)">27</div>
-                          <div class="anahtarKutu" id="key28" ondrop="drop(event)" ondragover="allowDrop(event)">28</div>
-                          <div class="anahtarKutu" id="key29" ondrop="drop(event)" ondragover="allowDrop(event)">29</div>
                         </div>
                       </div>
                       <div class="row">
@@ -328,32 +325,29 @@
                           <div class="alfabeKutu" id="abc1" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba1" draggable="true" ondragstart="drag(event)">A</span></div>
                           <div class="alfabeKutu" id="abc2" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba2" draggable="true" ondragstart="drag(event)">B</span></div>
                           <div class="alfabeKutu" id="abc3" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba3" draggable="true" ondragstart="drag(event)">C</span></div>
-                          <div class="alfabeKutu" id="abc4" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba4" draggable="true" ondragstart="drag(event)">Ç</span></div>
-                          <div class="alfabeKutu" id="abc5" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba5" draggable="true" ondragstart="drag(event)">D</span></div>
-                          <div class="alfabeKutu" id="abc6" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba6" draggable="true" ondragstart="drag(event)">E</span></div>
-                          <div class="alfabeKutu" id="abc7" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba7" draggable="true" ondragstart="drag(event)">F</span></div>
-                          <div class="alfabeKutu" id="abc8" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba8" draggable="true" ondragstart="drag(event)">G</span></div>
-                          <div class="alfabeKutu" id="abc9" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba9" draggable="true" ondragstart="drag(event)">Ğ</span></div>
-                          <div class="alfabeKutu" id="abc10" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba10" draggable="true" ondragstart="drag(event)">H</span></div>
-                          <div class="alfabeKutu" id="abc11" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba11" draggable="true" ondragstart="drag(event)">I</span></div>
-                          <div class="alfabeKutu" id="abc12" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba12" draggable="true" ondragstart="drag(event)">İ</span></div>
-                          <div class="alfabeKutu" id="abc13" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba13" draggable="true" ondragstart="drag(event)">J</span></div>
-                          <div class="alfabeKutu" id="abc14" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba14" draggable="true" ondragstart="drag(event)">K</span></div>
-                          <div class="alfabeKutu" id="abc15" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba15" draggable="true" ondragstart="drag(event)">L</span></div>
-                          <div class="alfabeKutu" id="abc16" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba16" draggable="true" ondragstart="drag(event)">M</span></div>
-                          <div class="alfabeKutu" id="abc17" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba17" draggable="true" ondragstart="drag(event)">N</span></div>
-                          <div class="alfabeKutu" id="abc18" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba18" draggable="true" ondragstart="drag(event)">O</span></div>
-                          <div class="alfabeKutu" id="abc19" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba19" draggable="true" ondragstart="drag(event)">Ö</span></div>
-                          <div class="alfabeKutu" id="abc20" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba20" draggable="true" ondragstart="drag(event)">P</span></div>
-                          <div class="alfabeKutu" id="abc21" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba21" draggable="true" ondragstart="drag(event)">R</span></div>
-                          <div class="alfabeKutu" id="abc22" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba22" draggable="true" ondragstart="drag(event)">S</span></div>
-                          <div class="alfabeKutu" id="abc23" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba23" draggable="true" ondragstart="drag(event)">Ş</span></div>
-                          <div class="alfabeKutu" id="abc24" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba24" draggable="true" ondragstart="drag(event)">T</span></div>
-                          <div class="alfabeKutu" id="abc25" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba25" draggable="true" ondragstart="drag(event)">U</span></div>
-                          <div class="alfabeKutu" id="abc26" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba26" draggable="true" ondragstart="drag(event)">Ü</span></div>
-                          <div class="alfabeKutu" id="abc27" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba27" draggable="true" ondragstart="drag(event)">V</span></div>
-                          <div class="alfabeKutu" id="abc28" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba28" draggable="true" ondragstart="drag(event)">Y</span></div>
-                          <div class="alfabeKutu" id="abc29" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba29" draggable="true" ondragstart="drag(event)">Z</span></div>
+                          <div class="alfabeKutu" id="abc4" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba4" draggable="true" ondragstart="drag(event)">D</span></div>
+                          <div class="alfabeKutu" id="abc5" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba5" draggable="true" ondragstart="drag(event)">E</span></div>
+                          <div class="alfabeKutu" id="abc6" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba6" draggable="true" ondragstart="drag(event)">F</span></div>
+                          <div class="alfabeKutu" id="abc7" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba7" draggable="true" ondragstart="drag(event)">G</span></div>
+                          <div class="alfabeKutu" id="abc8" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba8" draggable="true" ondragstart="drag(event)">H</span></div>
+                          <div class="alfabeKutu" id="abc9" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba9" draggable="true" ondragstart="drag(event)">I</span></div>
+                          <div class="alfabeKutu" id="abc10" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba10" draggable="true" ondragstart="drag(event)">J</span></div>
+                          <div class="alfabeKutu" id="abc11" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba11" draggable="true" ondragstart="drag(event)">K</span></div>
+                          <div class="alfabeKutu" id="abc12" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba12" draggable="true" ondragstart="drag(event)">L</span></div>
+                          <div class="alfabeKutu" id="abc13" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba13" draggable="true" ondragstart="drag(event)">M</span></div>
+                          <div class="alfabeKutu" id="abc14" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba14" draggable="true" ondragstart="drag(event)">N</span></div>
+                          <div class="alfabeKutu" id="abc15" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba15" draggable="true" ondragstart="drag(event)">O</span></div>
+                          <div class="alfabeKutu" id="abc16" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba16" draggable="true" ondragstart="drag(event)">P</span></div>
+                          <div class="alfabeKutu" id="abc17" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba17" draggable="true" ondragstart="drag(event)">Q</span></div>
+                          <div class="alfabeKutu" id="abc18" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba18" draggable="true" ondragstart="drag(event)">R</span></div>
+                          <div class="alfabeKutu" id="abc19" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba19" draggable="true" ondragstart="drag(event)">S</span></div>
+                          <div class="alfabeKutu" id="abc20" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba20" draggable="true" ondragstart="drag(event)">T</span></div>
+                          <div class="alfabeKutu" id="abc21" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba21" draggable="true" ondragstart="drag(event)">U</span></div>
+                          <div class="alfabeKutu" id="abc22" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba22" draggable="true" ondragstart="drag(event)">V</span></div>
+                          <div class="alfabeKutu" id="abc23" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba23" draggable="true" ondragstart="drag(event)">W</span></div>
+                          <div class="alfabeKutu" id="abc24" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba24" draggable="true" ondragstart="drag(event)">X</span></div>
+                          <div class="alfabeKutu" id="abc25" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba25" draggable="true" ondragstart="drag(event)">Y</span></div>
+                          <div class="alfabeKutu" id="abc26" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba26" draggable="true" ondragstart="drag(event)">Z</span></div>
                         </div>
                       </div>
                     </div>
