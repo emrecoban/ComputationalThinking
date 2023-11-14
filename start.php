@@ -283,7 +283,7 @@
               <div class="card-header"><span class="badge badge-primary p-2">Creative Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
               <div class="card-body">
                 <h5 class="card-title">Encrypted Text</h5>
-                <p class="card-text">Each letter of the alphabet is numbered with different numbers. Some letter matches are given in the message. You can match each letter in the key by dropping it on the numbers. Complete the key accordingly and decrypt the message. Then write the message you found in the Encrypted Message box. <strong>This message is Turkish.</strong></p>
+                <p class="card-text">Each letter of the alphabet is numbered with different numbers. Some letter matches are given in the message. You can match each letter in the key by dropping it on the numbers. Complete the key accordingly and decrypt the message. Then write the message you found in the Encrypted Message box. Hint: Reverse.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru2.png" class="img-fluid"></p>
 
                 <div class="card">

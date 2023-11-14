@@ -85,11 +85,8 @@
 
           //Soru2
           $s2_c1 = isset($_POST["s2_c1"]) ? strtoupper(pre_up($_POST["s2_c1"])) : "";
-          if(!strcmp($s2_c1,"ÇİLEK MEVSİMİ GELDİ")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"ÇILEK MEVSIMI GELDI")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"ÇİLEK MEVSIMI GELDİ")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"ÇILEK MEVSİMİ GELDİ")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"ÇİLEK MEVSIMI GELDI")){$puan_yd=$puan_yd+10;}
+          if(!strcmp($s2_c1,"strawberry season")){$puan_yd=$puan_yd+10;
+          }elseif(!strcmp($s2_c1,"STRAWBERRY SEASON")){$puan_yd=$puan_yd+10;}
 
           
           //Soru3
