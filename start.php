@@ -100,7 +100,7 @@
           <a class="list-group-item list-group-item-action" id="list-soru10-list" data-toggle="list" href="#list-soru10"
             role="tab" aria-controls="soru10">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Five Bar</h5>
+              <h5 class="mb-1">Five Sticks</h5>
               <small>10</small>
             </div>
             <small>Decomposition</small>
@@ -167,16 +167,17 @@
                       <option value="0" selected disabled>Select</option>
                       <option value="1">Woman</option>
                       <option value="2">Man</option>
+                      <option value="3">Other</option>
                     </select>
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="sinif">Grade</label>
+                    <label for="sinif">Level/Course/Class</label>
                     <select id="sinif" name="sinif" class="form-control" data-uyari="Profile: Grade" required>
                       <option value="0" selected disabled>Select</option>
-                      <option value="9">9. Grade</option>
-                      <option value="10">10. Grade</option>
-                      <option value="11">11. Grade</option>
-                      <option value="12">12. Grade</option>
+                      <option value="1">1st</option>
+                      <option value="2">2nd</option>
+                      <option value="3">3rd</option>
+                      <option value="4">4th</option>
                     </select>
                   </div>
                 </div>
@@ -993,7 +994,7 @@
             <div class="card">
               <div class="card-header"><span class="badge badge-primary p-2">Decomposition</span> <span class="badge badge-secondary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span></div>
               <div class="card-body">
-                <h5 class="card-title">Five Bar</h5>
+                <h5 class="card-title">Five Sticks</h5>
                 <p class="card-text">Emre has five sticks. He obtained the 1st shape with five sticks. Then Ayşe moved one stick and obtained the 2nd shape. In the last step, Elif also moved one stick. In this case, which shape cannot be obtained by Elif?</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru9.png" class="img-fluid"></p>
 

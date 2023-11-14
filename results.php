@@ -56,9 +56,8 @@ $result = $conn->query($sql);
                     <h6 class="mb-1 text-uppercase"><?=$r["AdSoyad"]?></h6>
                     <small><span class="badge badge-success p-1" style="font-size:12px;"><?=$r["puan_total"]?></span></small>
                 </div>
-                <small><?php 
-                  if($r["OkulTip"]=="1"){echo "Fen Lisesi";}elseif($r["OkulTip"]=="2"){echo "Anadolu Lisesi";}elseif($r["OkulTip"]=="3"){echo "Sosyal Bilimler Lisesi";}elseif($r["OkulTip"]=="4"){echo "Mesleki ve Teknik Anadolu Lisesi";}elseif($r["OkulTip"]=="5"){echo "Çok Programlı Anadolu Lisesi";}elseif($r["OkulTip"]=="6"){echo "Anadolu İmam Hatip Lisesi";}elseif($r["OkulTip"]=="7"){echo "Temel Lise";}else{echo "Açık Öğretim Lisesi";}
-                ?> - <?=$r["Sinif"]?>. Grade<br><?=$r["Cinsiyet"]=="1" ? "Woman" : "Man" ?> - <?=$r["OkulNo"]?> - <?=date_format(date_create($r["Date_"]),"d.m.Y H:i")?></small>
+                <small>Level/Course: <?=$r["Sinif"]?><br><?php 
+                if($r["Cinsiyet"]=="1"){echo "Woman";}elseif($r["Cinsiyet"]=="2"){echo "Man";}else{echo "Other";}?> - <?=$r["OkulNo"]?> - <?=date_format(date_create($r["Date_"]),"d.m.Y H:i")?></small>
             </a>
         <?php } ?>
         </div>
@@ -115,9 +114,9 @@ $result = $conn->query($sql);
                       </tr>
                       <tr>
                         <th scope="row">2. Encrypted Text</th>
-                        <td class="<?php if(!strcmp($r["s2_c1"],"ÇİLEK MEVSİMİ GELDİ")){echo "table-success";
-          }elseif(!strcmp($r["s2_c1"],"ÇILEK MEVSIMI GELDI")){echo "table-success";
-          }elseif(!strcmp($r["s2_c1"],"ÇİLEK MEVSIMI GELDİ")){echo "table-success";}elseif(!strcmp($r["s2_c1"],"ÇILEK MEVSİMİ GELDİ")){echo "table-success";}else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Çilek Mevsimi Geldi")</td>
+                        <td class="<?php if(!strcmp($r["s2_c1"],"strawberry season")){echo "table-success";
+          }elseif(!strcmp($r["s2_c1"],"STRAWBERRY SEASON")){echo "table-success";
+          }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Strawberry Season")</td>
                       </tr>
                       <tr>
                         <th scope="row">3. Tour Guide</th>
@@ -182,7 +181,7 @@ $result = $conn->query($sql);
                         <td><?=$r["puan_kd"]?>/10</td>
                       </tr>
                       <tr>
-                        <th scope="row">10. Five Bar</th>
+                        <th scope="row">10. Five Sticks</th>
                         <td class="<?=$r["s10_c1"]==6 ? "table-success" : "table-danger"?>"><?=$r["s10_c1"]?></td>
                       </tr>
                       <tr class="table-info">
