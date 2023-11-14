@@ -761,7 +761,7 @@
               <div class="card-header"><span class="badge badge-primary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
               <div class="card-body">
                 <h5 class="card-title">Cipher Mail</h5>
-                <p class="card-text">A postman will deliver a letter in his bag according to the orientation of the boxes. In order to deliver the letter, he needs to turn the boxes according to the code written by the programmer. Where is the delivery point of the letter?</p>
+                <p class="card-text">A postwoman will deliver a letter in his bag according to the orientation of the boxes. In order to deliver the letter, she needs to turn the boxes according to the code written by the programmer. Where is the delivery point of the letter?</p>
 
                 <div class="card">
                   <div class="card-body">
