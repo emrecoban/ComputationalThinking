@@ -7,6 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mr-auto"></div>
       <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/bd/es">Español</a>
         <a class="nav-item nav-link active" href="/bd/tr">Türkçe</a>
         <a class="nav-item nav-link" href="about.php">About</a>
       </div>
