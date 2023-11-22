@@ -27,7 +27,7 @@
             <a href="computational-thinking.php" class="text-muted">Recognition Pattern</a>
           </div>
           <div class="col-lg-3 mb-4 mt-4">
-            <img src="assets/img/github.png" width="50" height="50" title="GitHub" class="mx-auto d-block">
+          <a href="https://github.com/emrecoban/ComputationalThinking"><img src="assets/img/github.png" width="50" height="50" title="GitHub Repo" class="mx-auto d-block"></a>
           </div>
         </div>
       </div>

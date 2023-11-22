@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 150px; /* Margin bottom by footer height */
+}
+.navbarBD{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+    background-color:#fff;
+    color:#5f6368;
+}
+.baslangic{
+    display: flex;
+    align-items: center;
+    height:650px;
+    background-color:#fff;
+    background:url("../img/pattern.png");
+    background-repeat: repeat;
+}
+#ortala{
+    color:#5f6368;
+    vertical-align: middle;
+    text-align: center;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.itembottommargin{margin-bottom:15px;}
+.nedirBox{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+    border:1px solid #ff9933;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px;
+    height: 300px;
+    margin-top:25px;
+}
+.footerBD{
+    background-color:#f8f9fa;
+    height:auto;
+}
+.nedirBDQ{
+    background-color:#4db8ff;
+    color:#fff;
+    text-align: center;
+}
+
+.patternbg{
+    background:url("../img/pattern.png");
+    background-repeat: repeat;
+}
+.marginRight{margin-right:10px;}
+.ornekkutu{border:1px solid #000;width:100px;height:100px;display:block;}
+#sayibul tr{height:50px;}
+#sayibul td:hover{cursor: pointer;}
+.sKutu{width:64px;height:64px;border:1px solid #000;padding:10px;float:left;margin-right:5px;margin-bottom:5px;cursor:pointer;}
+.anahtarKutu{width:36px;height:36px;border:1px solid #000;float:left;margin-right:5px;margin-bottom:5px;text-align: right;color:#000;font-size:12px;}
+.alfabeKutu{width:36px;height:36px;border:1px solid #000;float:left;margin-right:5px;margin-bottom:5px;text-align: center;color:#000;font-size:14px;line-height: 36px;background-color:#ff9933;}
+.alfabeKutu span{display:block;cursor:pointer;font-weight: bold;}
+.anahtarKutu span{display:block;cursor:pointer;background-color:#ff9933;font-weight: bold;}
+.skillBox{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -moz-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: default;
+}
+.skillBox:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+    background-color:#fff;
+}
+.footertext{font-size:14px;}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px; /* Set the fixed height of the footer here */
+  }
