@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Result - Computational Thinking Score</title>
+  <title>Resultado - Computational Thinking Score</title>
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
@@ -85,8 +85,8 @@
 
           //Soru2
           $s2_c1 = isset($_POST["s2_c1"]) ? strtoupper(pre_up($_POST["s2_c1"])) : "";
-          if(!strcmp($s2_c1,"strawberry season")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"STRAWBERRY SEASON")){$puan_yd=$puan_yd+10;}
+          if(!strcmp($s2_c1,"temporada de fresas")){$puan_yd=$puan_yd+10;
+          }elseif(!strcmp($s2_c1,"TEMPRODA DE FRESAS")){$puan_yd=$puan_yd+10;}
 
           
           //Soru3
@@ -191,27 +191,27 @@
         ?>
         
         <div class="jumbotron">
-          <h3 class="display-5">Computational Thinking Score Result</h1>
-          <p class="lead">On <?=date("d.m.Y");?>, 7 different skill scores were calculated over 12 questions.</p>
+          <h3 class="display-5">Computational Thinking Score Resultado</h1>
+          <p class="lead">El <?=date("d.m.Y");?>, se calcularon 7 puntuaciones de habilidad diferentes sobre 12 preguntas.</p>
           <hr class="my-4">
           <?php if ($conn->query($sql) === TRUE) { ?>
           <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Congratulations!</h4>
-            <p>Sevgili <span class="text-uppercase"><?=$AdSoyad?></span>, you have successfully completed the Computational Thinking Score test.</p>
+            <h4 class="alert-heading">Enhorabuena!</h4>
+            <p>Estimada <span class="text-uppercase"><?=$AdSoyad?></span>, has superado con éxito la prueba de Puntuación de Pensamiento Computacional.</p>
           </div>
           <?php } else { ?>
           <div class="alert alert-danger" role="alert">
-            <h4 class="alert-heading">Failed to register.</h4>
-            <p>Dear <span class="text-uppercase"><?=$AdSoyad?></span>, Some problems occurred while calculating the Computational Thinking Score test. Details <?=$conn->error?></p>
+            <h4 class="alert-heading">Error de registro.</h4>
+            <p>Estimada <span class="text-uppercase"><?=$AdSoyad?></span>, Se han producido algunos problemas al calcular la prueba de Puntuación de Pensamiento Computacional. Detalles <?=$conn->error?></p>
           </div>
           <?php } $conn->close(); }else{ ?>
         <div class="jumbotron">
-          <h3 class="display-5">Computational Thinking Score Result</h1>
-          <p class="lead"><a href="start.php" class="badge badge-primary">Start Again</a></p>
+          <h3 class="display-5">Computational Thinking Score Resultado</h1>
+          <p class="lead"><a href="start.php" class="badge badge-primary">Volver a empezar</a></p>
           <hr class="my-4">
           <div class="alert alert-danger" role="alert">
-            <h4 class="alert-heading">Failed to Calculate Score</h4>
-            <p>There were some problems calculating the Computational Thinking Score test.</p>
+            <h4 class="alert-heading">No se ha podido calcular la puntuación</h4>
+            <p>Hubo algunos problemas para calcular la prueba de Puntuación de Pensamiento Computacional.</p>
           </div>
           <?php } ?>
           <div class="container-fluid">
@@ -219,19 +219,19 @@
               <div class="col m-2 p-2 bg-warning rounded-lg text-light text-center"><h4 class=""><?=$puan_total?>/120</h4> TOTAL</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-success rounded-lg text-light text-center"><h4 class=""><?=$puan_s?>/20</h4> Abstraction</div>
-              <div class="col m-2 p-2 bg-primary rounded-lg text-light text-center"><h4 class=""><?=$puan_a?>/10</h4> Decomposition</div>
+              <div class="col m-2 p-2 bg-success rounded-lg text-light text-center"><h4 class=""><?=$puan_s?>/20</h4> Abstracción</div>
+              <div class="col m-2 p-2 bg-primary rounded-lg text-light text-center"><h4 class=""><?=$puan_a?>/10</h4> Descomposición</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-secondary rounded-lg text-light text-center"><h4 class=""><?=$puan_ot?>/10</h4> Recognition Pattern</div>
-              <div class="col m-2 p-2 bg-danger rounded-lg text-light text-center"><h4 class=""><?=$puan_yd?>/20</h4> Creative Thinking</div>
+              <div class="col m-2 p-2 bg-secondary rounded-lg text-light text-center"><h4 class=""><?=$puan_ot?>/10</h4> Reconocimiento de patrones</div>
+              <div class="col m-2 p-2 bg-danger rounded-lg text-light text-center"><h4 class=""><?=$puan_yd?>/20</h4> Pensamiento creativo</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-info rounded-lg text-light text-center"><h4 class=""><?=$puan_kd?>/10</h4> Critical Thinking</div>
-              <div class="col m-2 p-2 bg-dark rounded-lg text-light text-center"><h4 class=""><?=$puan_ad?>/30</h4> Algorithmic Thinking</div>
+              <div class="col m-2 p-2 bg-info rounded-lg text-light text-center"><h4 class=""><?=$puan_kd?>/10</h4> Pensamiento crítico</div>
+              <div class="col m-2 p-2 bg-dark rounded-lg text-light text-center"><h4 class=""><?=$puan_ad?>/30</h4> Pensamiento algorítmico</div>
             </div>
             <div class="row">
-              <div class="col m-2 p-2 bg-light rounded-lg text-dark text-center"><h4 class=""><?=$puan_pc?>/20</h4> Problem Solving</div>
+              <div class="col m-2 p-2 bg-light rounded-lg text-dark text-center"><h4 class=""><?=$puan_pc?>/20</h4> Resolución de problemas</div>
             </div>
           </div>
         </div>

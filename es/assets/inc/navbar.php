@@ -9,7 +9,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="/bd/">English</a>
         <a class="nav-item nav-link active" href="/bd/tr">Türkçe</a>
-        <a class="nav-item nav-link" href="about.php">About</a>
+        <a class="nav-item nav-link" href="about.php">Acerca de</a>
       </div>
     </div>
   </nav>

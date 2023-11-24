@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Get your score - Computational Thinking Score</title>
+  <title>Obtenga su puntuación - Computational Thinking Score</title>
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
@@ -22,104 +22,104 @@
         <div class="list-group" id="list-tab" role="tablist">
           <a class="list-group-item list-group-item-action active" id="list-baslangic-list" data-toggle="list"
             href="#list-baslangic" role="tab" aria-controls="baslangic">
-            <h5 class="mb-1">Beginning</h5>
-            <small>Profile</small>
+            <h5 class="mb-1">Inicio</h5>
+            <small>Perfil</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru1-list" data-toggle="list" href="#list-soru1"
             role="tab" aria-controls="soru1">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Weird Dog</h5>
+              <h5 class="mb-1">Perro raro</h5>
               <small>1</small>
             </div>
-            <small>Recognition Pattern</small>
+            <small>Reconocimiento de patrones</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru2-list" data-toggle="list" href="#list-soru2"
             role="tab" aria-controls="soru2">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Encrypted Text</h5>
+              <h5 class="mb-1">Texto encriptado</h5>
               <small>2</small>
             </div>
-            <small>Creative Thinking</small>
+            <small>Pensamiento creativo</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru3-list" data-toggle="list" href="#list-soru3"
             role="tab" aria-controls="soru3">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Tour Guide</h5>
+              <h5 class="mb-1">Guía turística</h5>
               <small>3</small>
             </div>
-            <small>Creative Thinking</small>
+            <small>Pensamiento creativo</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru4-list" data-toggle="list" href="#list-soru4"
             role="tab" aria-controls="soru4">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Temperature Sensor</h5>
+              <h5 class="mb-1">Sensor de temperatura</h5>
               <small>4</small>
             </div>
-            <small>Algorithmic Thinking</small>
+            <small>Pensamiento algorítmico</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru5-list" data-toggle="list" href="#list-soru5"
             role="tab" aria-controls="soru5">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Engineer Team</h5>
+              <h5 class="mb-1">Equipo de ingenieros</h5>
               <small>5</small>
             </div>
-            <small>Problem Solving</small>
+            <small>Resolución de problemas</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru6-list" data-toggle="list" href="#list-soru6"
             role="tab" aria-controls="soru6">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Candy Maze</h5>
+              <h5 class="mb-1">Laberinto de caramelos</h5>
               <small>6</small>
             </div>
-            <small>Algorithmic Thinking</small>
+            <small>Pensamiento algorítmico</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru7-list" data-toggle="list" href="#list-soru7"
             role="tab" aria-controls="soru7">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Hidden Number</h5>
+              <h5 class="mb-1">Número oculto</h5>
               <small>7</small>
             </div>
-            <small>Critical Thinking</small>
+            <small>Pensamiento crítico</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru8-list" data-toggle="list" href="#list-soru8"
             role="tab" aria-controls="soru8">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Cipher Mail</h5>
+              <h5 class="mb-1">Correo cifrado</h5>
               <small>8</small>
             </div>
-            <small>Algorithmic Thinking</small>
+            <small>Pensamiento algorítmico</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru9-list" data-toggle="list" href="#list-soru9"
             role="tab" aria-controls="soru9">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Fish Research</h5>
+              <h5 class="mb-1">Investigación pesquera</h5>
               <small>9</small>
             </div>
-            <small>Problem Solving</small>
+            <small>Resolución de problemas</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru10-list" data-toggle="list" href="#list-soru10"
             role="tab" aria-controls="soru10">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Five Sticks</h5>
+              <h5 class="mb-1">Cinco palos</h5>
               <small>10</small>
             </div>
-            <small>Decomposition</small>
+            <small>Descomposición</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru11-list" data-toggle="list" href="#list-soru11"
             role="tab" aria-controls="soru11">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Car Wash</h5>
+              <h5 class="mb-1">Lavado de coches</h5>
               <small>11</small>
             </div>
-            <small>Abstraction</small>
+            <small>Abstracción</small>
           </a>
           <a class="list-group-item list-group-item-action" id="list-soru12-list" data-toggle="list" href="#list-soru12"
             role="tab" aria-controls="soru12">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Book Club</h5>
+              <h5 class="mb-1">Club de lectura</h5>
               <small>12</small>
             </div>
-            <small>Abstraction</small>
+            <small>Abstracción</small>
           </a>
         </div>
 
@@ -132,22 +132,22 @@
             aria-labelledby="list-baslangic-list">
 
             <div class="alert alert-info" role="alert">
-              <h4 class="alert-heading">Welcome!</h4>
-              <p>Before you start the questions, you must complete your own information. You will be able to see your current stage in the left menu. You can switch between questions and start with the one you want.</p>
+              <h4 class="alert-heading">Bienvenido!</h4>
+              <p>Antes de empezar con las preguntas, debes completar tu propia información. Podrás ver tu etapa actual en el menú de la izquierda. Puedes cambiar de pregunta y empezar por la que quieras.</p>
               <hr>
-              <p class="mb-0">In order to see the Computational Thinking score, you need to fill in <strong>all fields completely</strong>.</p>
+              <p class="mb-0">Para ver la puntuación de Pensamiento Computacional, debe rellenar <strong>todos los campos completamente</strong>.</p>
               <hr>
-              <p class="mb-0">For any problems or questions, you can send an e-mail to <strong>emre@emrecoban.com.tr</strong>.</p>
+              <p class="mb-0">Para cualquier problema o pregunta, puede enviar un correo electrónico a <strong>emre@emrecoban.com.tr</strong>.</p>
             </div>
 
             <div class="card panel-primary">
               <div class="card-header">
-               Profile
+               Perfil
               </div>
               <div class="card-body">
 
                 <div class="form-group">
-                  <label for="inputCity">Nickname</label>
+                  <label for="inputCity">Apodo</label>
                   <input type="text" class="form-control text-uppercase" id="adsoyad" name="adsoyad" maxlength="30" data-uyari="Profile: Nickname" required>
                 </div>
                 <div class="form-row">
@@ -156,35 +156,35 @@
                     <input type="text" class="form-control" id="okulno" name="okulno" value="<?=rand(10,999)?>" maxlength="8" data-uyari="Profile: School Number" required>
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="okultip">School Type</label>
+                    <label for="okultip">Tipo de escuela</label>
                     <select id="okultip" name="okultip" class="form-control" data-uyari="Profile: School Type" required>
-                      <option value="1" selected>Skip this field</option>
+                      <option value="1" selected>Saltar este campo</option>
                     </select>
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="cinsiyet">Gender</label>
+                    <label for="cinsiyet">Género</label>
                     <select id="cinsiyet" name="cinsiyet" class="form-control" data-uyari="Profile: Gender" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">Woman</option>
-                      <option value="2">Man</option>
-                      <option value="3">Other</option>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">Mujer</option>
+                      <option value="2">Hombre</option>
+                      <option value="3">Otro</option>
                     </select>
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="sinif">Level/Course/Class</label>
+                    <label for="sinif">Nivel/Curso/Clase</label>
                     <select id="sinif" name="sinif" class="form-control" data-uyari="Profile: Grade" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">1st</option>
-                      <option value="2">2nd</option>
-                      <option value="3">3rd</option>
-                      <option value="4">4th</option>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">1er</option>
+                      <option value="2">2do</option>
+                      <option value="3">3er</option>
+                      <option value="4">4to</option>
                     </select>
                   </div>
                 </div>
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru1" data-action="nav"
-                  data-controls="soru1">Next</a>
+                  data-controls="soru1">Próximo</a>
               </div>
             </div>
 
@@ -194,17 +194,17 @@
           <div class="tab-pane fade" id="list-soru1" role="tabpanel" aria-labelledby="list-soru1-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Recognition Pattern</span> <span class="badge badge-secondary p-2">Decomposition</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Reconocimiento de patrones</span> <span class="badge badge-secondary p-2">Descomposición</span></div>
               <div class="card-body">
-                <h5 class="card-title">Weird Dog</h5>
-                <p class="card-text">In each row, identify the dog that does not fit the column (vertical pattern).</p>
+                <h5 class="card-title">Perro raro</h5>
+                <p class="card-text">En cada fila, identifique el perro que no encaja en la columna (patrón vertical).</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru1.png" class="img-fluid"></p>
 
                 <div class="form-row">
                   <div class="form-group col-md-3">
-                    <label for="satir1">1. Row</label>
+                    <label for="satir1">1. Fila</label>
                     <select id="satir1" name="s1_c1" class="form-control" data-uyari="Weird Dog: 1. Row" required>
-                      <option value="0" selected disabled>Select</option>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -218,9 +218,9 @@
                     </select>
                   </div>
                   <div class="form-group col-md-3">
-                    <label for="satir2">2. Row</label>
+                    <label for="satir2">2. Fila</label>
                     <select id="satir2" name="s1_c2" class="form-control" data-uyari="Weird Dog: 2. Row" required>
-                      <option value="0" selected disabled>Select</option>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -234,9 +234,9 @@
                     </select>
                   </div>
                   <div class="form-group col-md-3">
-                    <label for="satir3">3. Row</label>
+                    <label for="satir3">3. Fila</label>
                     <select id="satir3" name="s1_c3" class="form-control" data-uyari="Weird Dog: 3. Row" required>
-                      <option value="0" selected disabled>Select</option>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -250,9 +250,9 @@
                     </select>
                   </div>
                   <div class="form-group col-md-3">
-                    <label for="satir4">4. Row</label>
+                    <label for="satir4">4. Fila</label>
                     <select id="satir4" name="s1_c4" class="form-control" data-uyari="Weird Dog: 4. Row" required>
-                      <option value="0" selected disabled>Select</option>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -270,9 +270,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-baslangic" data-action="nav"
-                  data-controls="baslangic">Previous step</a>
+                  data-controls="baslangic">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru2" data-action="nav"
-                  data-controls="soru2">Next</a>
+                  data-controls="soru2">Próximo</a>
               </div>
             </div>
 
@@ -281,15 +281,15 @@
           <div class="tab-pane fade" id="list-soru2" role="tabpanel" aria-labelledby="list-soru2-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Creative Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento creativo</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Generalización</span></div>
               <div class="card-body">
-                <h5 class="card-title">Encrypted Text</h5>
-                <p class="card-text">Each letter of the alphabet is numbered with different numbers. Some letter matches are given in the message. You can match each letter in the key by dropping it on the numbers. Complete the key accordingly and decrypt the message. Then write the message you found in the Encrypted Message box. Hint: Reverse.</p>
+                <h5 class="card-title">Texto encriptado</h5>
+                <p class="card-text">Cada letra del alfabeto está numerada con números diferentes. En el mensaje se dan algunas coincidencias de letras. Puedes hacer coincidir cada letra en la clave dejándola caer sobre los números. Complete la clave según corresponda y descifre el mensaje. A continuación, escribe el mensaje que has encontrado en la casilla Mensaje cifrado. Sugerencia: al revés.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru2.png" class="img-fluid"></p>
 
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-title">Key</div>
+                    <div class="card-title">Clave</div>
                     <div class="container">
                       <div class="row">
                         <div class="col">
@@ -319,6 +319,7 @@
                           <div class="anahtarKutu" id="key24" ondrop="drop(event)" ondragover="allowDrop(event)">24</div>
                           <div class="anahtarKutu" id="key25" ondrop="drop(event)" ondragover="allowDrop(event)">25</div>
                           <div class="anahtarKutu" id="key26" ondrop="drop(event)" ondragover="allowDrop(event)">26</div>
+                          <div class="anahtarKutu" id="key27" ondrop="drop(event)" ondragover="allowDrop(event)">27</div>
                         </div>
                       </div>
                       <div class="row">
@@ -337,18 +338,19 @@
                           <div class="alfabeKutu" id="abc12" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba12" draggable="true" ondragstart="drag(event)">L</span></div>
                           <div class="alfabeKutu" id="abc13" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba13" draggable="true" ondragstart="drag(event)">M</span></div>
                           <div class="alfabeKutu" id="abc14" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba14" draggable="true" ondragstart="drag(event)">N</span></div>
-                          <div class="alfabeKutu" id="abc15" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba15" draggable="true" ondragstart="drag(event)">O</span></div>
-                          <div class="alfabeKutu" id="abc16" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba16" draggable="true" ondragstart="drag(event)">P</span></div>
-                          <div class="alfabeKutu" id="abc17" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba17" draggable="true" ondragstart="drag(event)">Q</span></div>
-                          <div class="alfabeKutu" id="abc18" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba18" draggable="true" ondragstart="drag(event)">R</span></div>
-                          <div class="alfabeKutu" id="abc19" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba19" draggable="true" ondragstart="drag(event)">S</span></div>
-                          <div class="alfabeKutu" id="abc20" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba20" draggable="true" ondragstart="drag(event)">T</span></div>
-                          <div class="alfabeKutu" id="abc21" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba21" draggable="true" ondragstart="drag(event)">U</span></div>
-                          <div class="alfabeKutu" id="abc22" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba22" draggable="true" ondragstart="drag(event)">V</span></div>
-                          <div class="alfabeKutu" id="abc23" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba23" draggable="true" ondragstart="drag(event)">W</span></div>
-                          <div class="alfabeKutu" id="abc24" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba24" draggable="true" ondragstart="drag(event)">X</span></div>
-                          <div class="alfabeKutu" id="abc25" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba25" draggable="true" ondragstart="drag(event)">Y</span></div>
-                          <div class="alfabeKutu" id="abc26" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba26" draggable="true" ondragstart="drag(event)">Z</span></div>
+                          <div class="alfabeKutu" id="abc15" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba15" draggable="true" ondragstart="drag(event)">Ñ</span></div>
+                          <div class="alfabeKutu" id="abc16" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba16" draggable="true" ondragstart="drag(event)">O</span></div>
+                          <div class="alfabeKutu" id="abc17" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba17" draggable="true" ondragstart="drag(event)">P</span></div>
+                          <div class="alfabeKutu" id="abc18" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba18" draggable="true" ondragstart="drag(event)">Q</span></div>
+                          <div class="alfabeKutu" id="abc19" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba19" draggable="true" ondragstart="drag(event)">R</span></div>
+                          <div class="alfabeKutu" id="abc20" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba20" draggable="true" ondragstart="drag(event)">S</span></div>
+                          <div class="alfabeKutu" id="abc21" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba21" draggable="true" ondragstart="drag(event)">T</span></div>
+                          <div class="alfabeKutu" id="abc22" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba22" draggable="true" ondragstart="drag(event)">U</span></div>
+                          <div class="alfabeKutu" id="abc23" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba23" draggable="true" ondragstart="drag(event)">V</span></div>
+                          <div class="alfabeKutu" id="abc24" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba24" draggable="true" ondragstart="drag(event)">W</span></div>
+                          <div class="alfabeKutu" id="abc25" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba25" draggable="true" ondragstart="drag(event)">X</span></div>
+                          <div class="alfabeKutu" id="abc26" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba26" draggable="true" ondragstart="drag(event)">Y</span></div>
+                          <div class="alfabeKutu" id="abc27" ondrop="drop(event)" ondragover="allowDrop(event)"><span id="cba27" draggable="true" ondragstart="drag(event)">Z</span></div>
                         </div>
                       </div>
                     </div>
@@ -361,8 +363,8 @@
                 <p class="card-text">
                   <div class="form-row">
                     <div class="form-group col-md-12">
-                      <label for="sifrelimesaj">Encrypted Message</label>
-                      <input type="text" name="s2_c1" class="form-control text-uppercase" id="sifrelimesaj" maxlength="30" data-uyari="Encrypted Message" required>
+                      <label for="sifrelimesaj">Mensaje cifrado</label>
+                      <input type="text" name="s2_c1" class="form-control text-uppercase" id="sifrelimesaj" maxlength="30" data-uyari="Mensaje cifrado" required>
                     </div>
                   </div>
                 </p>
@@ -370,9 +372,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru1" data-action="nav"
-                  data-controls="soru1">Previous step</a>
+                  data-controls="soru1">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru3" data-action="nav"
-                  data-controls="soru3">Next</a>
+                  data-controls="soru3">Próximo</a>
               </div>
             </div>
 
@@ -380,46 +382,46 @@
           <div class="tab-pane fade" id="list-soru3" role="tabpanel" aria-labelledby="list-soru3-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Creative Thinking</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento creativo</span> <span class="badge badge-secondary p-2">Pensamiento algorítmico</span> <span class="badge badge-secondary p-2">Evaluación</span></div>
               <div class="card-body">
-                <h5 class="card-title">Tour Guide</h5>
-                <p class="card-text">As a tour guide in a hotel, you have to show tourists around. While guiding the tourists, you have to reach the hotel without passing through a place twice. You can get help from the map for this. The route must start and end with the hotel and the tourists must visit all the places. You can drag and drop the locations on the route with the mouse.</p>
+                <h5 class="card-title">Guía turística</h5>
+                <p class="card-text">Como guía turístico en un hotel, tienes que mostrar los alrededores a los turistas. Mientras guías a los turistas, tienes que llegar al hotel sin pasar dos veces por un mismo lugar. Para ello, puedes ayudarte del mapa. La ruta debe empezar y terminar en el hotel y los turistas deben visitar todos los lugares. Puedes arrastrar y soltar los lugares en la ruta con el ratón.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru3.png" class="img-fluid"></p>
 
                 <!-- Buraya gelsin sortable -->
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <h5>Locations</h5>
+                      <h5>Ubicaciones</h5>
                       <ul id="turRehberi1" class="list-group">
                         <li class="list-group-item list-group-item-action" data-mekan="0">Hotel</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="1">Park</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="2">Aquarium</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="3">Beach</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="4">Art Gallery</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="5">Science Museum</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="6">University</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="7">Factory</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="8">Castle</li>
-                        <li class="list-group-item list-group-item-action" data-mekan="9">Bridge</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="1">Parque</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="2">Acuario</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="3">Playa</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="4">Galería de arte</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="5">Museo de la Ciencia</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="6">Universidad</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="7">Fábrica</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="8">Castillo</li>
+                        <li class="list-group-item list-group-item-action" data-mekan="9">Puente</li>
                       </ul>
                     </div>
                     <div class="col">
-                      <h5>Route</h5>
+                      <h5>Ruta</h5>
                       <ul id="turRehberi2" class="list-group" style="height:550px;">
                         <li class="list-group-item list-group-item-action" data-mekan="0">Hotel</li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <input type="text" name="s3_c1" id="rota"  class="d-none" data-uyari="Tour Guide" required>
+                <input type="text" name="s3_c1" id="rota"  class="d-none" data-uyari="Guía turística" required>
 
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru2" data-action="nav"
-                  data-controls="soru2">Previous step</a>
+                  data-controls="soru2">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru4" data-action="nav"
-                  data-controls="soru4">Next</a>
+                  data-controls="soru4">Próximo</a>
               </div>
             </div>
 
@@ -427,15 +429,15 @@
           <div class="tab-pane fade" id="list-soru4" role="tabpanel" aria-labelledby="list-soru4-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento algorítmico</span> <span class="badge badge-secondary p-2">Evaluación</span></div>
               <div class="card-body">
-                <h5 class="card-title">Temperature Sensor</h5>
-                <p class="card-text">A computer programmer measured the temperature value with temperature sensors placed at different points on metal iron. In order to make this measurement, he loaded the code he had written before into the programmable circuit. In which option is the output of the code correctly given?</p>
+                <h5 class="card-title">Sensor de temperatura</h5>
+                <p class="card-text">Un programador de ordenadores midió el valor de la temperatura con sensores de temperatura colocados en distintos puntos del hierro metálico. Para realizar esta medición, cargó en el circuito programable el código que había escrito anteriormente. ¿En qué opción se indica correctamente la salida del código?</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru4.png" class="img-fluid"></p>
 
                 <div class="card">
                   <div class="card-body">
-                    <h6 class="card-subtitle mb-2 text-muted">Code written by the programmer:</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Código escrito por el programador:</h6>
                     <kbd>LOOP FOREVER</kbd>:<br>
                     val1 = <kbd>READ</kbd>(1) <br>
                     val2 = <kbd>READ</kbd>(2)<br>
@@ -458,7 +460,7 @@
                         <div class="input-group">
                           <div class="input-group-prepend marginRight">
                             <div class="input-group-text">
-                              <input type="radio" name="s4_c1" id="s4_c1" value="1" data-uyari="Temperature Sensor" required>
+                              <input type="radio" name="s4_c1" id="s4_c1" value="1" data-uyari="Sensor de temperatura" required>
                             </div>
                           </div>
                           <samp>
@@ -545,75 +547,75 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru3" data-action="nav"
-                  data-controls="soru3">Previous step</a>
+                  data-controls="soru3">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru5" data-action="nav"
-                  data-controls="soru5">Next</a>
+                  data-controls="soru5">Próximo</a>
               </div>
             </div>
           </div>
           <div class="tab-pane fade" id="list-soru5" role="tabpanel" aria-labelledby="list-soru5-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Problem Solving</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Resolución de problemas</span> <span class="badge badge-secondary p-2">Pensamiento algorítmico</span> <span class="badge badge-secondary p-2">Evaluación</span></div>
               <div class="card-body">
-                <h5 class="card-title">Engineer Team</h5>
-                <p class="card-text">A group of engineers have developed a remote-controlled vehicle. But they programmed the route of the remote-controlled vehicle incorrectly. You need to re-sequence the route so that the remote controlled vehicle reaches its destination.</p>
+                <h5 class="card-title">Equipo de ingenieros</h5>
+                <p class="card-text">Un grupo de ingenieros ha desarrollado un vehículo teledirigido. Pero han programado mal la ruta del vehículo teledirigido. Tienes que volver a programar la ruta para que el vehículo teledirigido llegue a su destino.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru5.png" class="img-fluid"></p>
 
                 <!-- Buraya gelsin sortable -->
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <h5>Rota</h5>
+                      <h5>Ruta</h5>
                       <ul id="muhendis" class="list-group">
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">South
+                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">Sur
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">West
+                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">Oeste
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-primary" data-muh="4">North
+                        <li class="list-group-item list-group-item-action list-group-item-primary" data-muh="4">Norte
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">South
+                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">Sur
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">West
+                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">Oeste
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">South
+                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">Sur
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">West
+                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">Oeste
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-primary" data-muh="4">North
+                        <li class="list-group-item list-group-item-action list-group-item-primary" data-muh="4">Norte
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">South
+                        <li class="list-group-item list-group-item-action list-group-item-danger" data-muh="2">Sur
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">East
+                        <li class="list-group-item list-group-item-action list-group-item-warning" data-muh="1">Este
                         </li>
-                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">West
+                        <li class="list-group-item list-group-item-action list-group-item-success" data-muh="3">Oeste
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <input type="text" name="s5_c1" id="muhcevap" data-uyari="Engineer Team" class="d-none" required>
+                <input type="text" name="s5_c1" id="muhcevap" data-uyari="Equipo de ingenieros" class="d-none" required>
 
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru4" data-action="nav"
-                  data-controls="soru4">Previous step</a>
+                  data-controls="soru4">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru6" data-action="nav"
-                  data-controls="soru6">Next</a>
+                  data-controls="soru6">Próximo</a>
               </div>
             </div>
 
@@ -621,22 +623,22 @@
           <div class="tab-pane fade" id="list-soru6" role="tabpanel" aria-labelledby="list-soru6-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento algorítmico</span> <span class="badge badge-secondary p-2">Abstracción</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Generalización</span></div>
               <div class="card-body">
-                <h5 class="card-title">Candy Maze</h5>
-                <p class="card-text">A robot is programmed to collect as much candy as possible. The robot collects candies as it passes through each cell. Each cell has 0, 1, 2 and 3 candies. The robot can only move up and to the right. How many candies has the robot collected at most?</p>
+                <h5 class="card-title">Laberinto de caramelos</h5>
+                <p class="card-text">Un robot está programado para recoger tantos caramelos como sea posible. El robot recoge caramelos al pasar por cada celda. Cada casilla tiene 0, 1, 2 y 3 caramelos. El robot sólo puede moverse hacia arriba y hacia la derecha. ¿Cuántos caramelos ha recogido el robot como máximo?</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru6.png" class="img-fluid"></p>
 
                 <div class="form-row">
                   <div class="form-group col-md-12">
-                    <label for="seker">Candy Count</label>
-                    <select id="seker" name="s6_c1" class="form-control" data-uyari="Candy Count" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">10 Candy</option>
-                      <option value="5">11 Candy</option>
-                      <option value="2">12 Candy</option>
-                      <option value="3">14 Candy</option>
-                      <option value="4">16 Candy</option>
+                    <label for="seker">Recuento de caramelos</label>
+                    <select id="seker" name="s6_c1" class="form-control" data-uyari="Recuento de caramelos" required>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">10 Caramelo</option>
+                      <option value="5">11 Caramelo</option>
+                      <option value="2">12 Caramelo</option>
+                      <option value="3">14 Caramelo</option>
+                      <option value="4">16 Caramelo</option>
                     </select>
                   </div>
                 </div>
@@ -644,20 +646,20 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru5" data-action="nav"
-                  data-controls="soru5">Previous step</a>
+                  data-controls="soru5">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru7" data-action="nav"
-                  data-controls="soru7">Next</a>
+                  data-controls="soru7">Próximo</a>
               </div>
             </div>
 
           </div>
           <div class="tab-pane fade" id="list-soru7" role="tabpanel" aria-labelledby="list-soru7-list">
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Critical Thinking</span> <span class="badge badge-secondary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Decomposition</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento crítico</span> <span class="badge badge-secondary p-2">Abstracción</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Descomposición</span></div>
               <div class="card-body">
-                <h5 class="card-title">Hidden Number</h5>
-                <p class="card-text">A computer programmer wants to display digital numbers using 7 LEDs. Each LED part is labeled as shown in the picture (A, B, C, D, E, F and G).
-                Which LED parts should the programmer turn on to write the number <kbd>6813</kbd>? For example, the number 103 is shown in the picture.</p>
+                <h5 class="card-title">Número oculto</h5>
+                <p class="card-text">Un programador de ordenadores quiere mostrar números digitales utilizando 7 LEDs. Cada parte del LED está etiquetada como se muestra en la imagen (A, B, C, D, E, F y G).
+                ¿Qué partes LED debe encender el programador para escribir el número <kbd>6813</kbd>? Por ejemplo, en la imagen aparece el número 103.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru7.png" class="img-fluid"></p>
 
                 <table class="table table-hover text-center table-bordered" id="sayibul">
@@ -748,9 +750,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru6" data-action="nav"
-                  data-controls="soru6">Previous step</a>
+                  data-controls="soru6">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru8" data-action="nav"
-                  data-controls="soru8">Next</a>
+                  data-controls="soru8">Próximo</a>
               </div>
             </div>
 
@@ -758,14 +760,14 @@
           <div class="tab-pane fade" id="list-soru8" role="tabpanel" aria-labelledby="list-soru8-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Algorithmic Thinking</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Pensamiento algorítmico</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Generalización</span></div>
               <div class="card-body">
-                <h5 class="card-title">Cipher Mail</h5>
-                <p class="card-text">A postwoman will deliver a letter in his bag according to the orientation of the boxes. In order to deliver the letter, she needs to turn the boxes according to the code written by the programmer. Where is the delivery point of the letter?</p>
+                <h5 class="card-title">Correo cifrado</h5>
+                <p class="card-text">Una cartero entregará una carta en su bolsa según la orientación de las cajas. Para entregar la carta, tiene que girar las cajas según el código escrito por el programador. ¿Dónde está el punto de entrega de la carta?</p>
 
                 <div class="card">
                   <div class="card-body">
-                    <h6 class="card-subtitle mb-2 text-muted">Code written by the programmer:</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Código escrito por el programador:</h6>
                     <kbd>IF</kbd> Box_Color = Green:<br>
                     <kbd>TURN</kbd> Box 90°<br>
                     <kbd>IF</kbd> Box_Color = Red:<br>
@@ -779,22 +781,22 @@
                 <br>
                 <div class="card">
                   <div class="card-body" id="kutular">
-                    <h6 class="card-subtitle mb-2 text-muted">Boxes (Click on it):</h6>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-warning"
+                    <h6 class="card-subtitle mb-2 text-muted">Cajas (Haga clic en él):</h6>
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-warning"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-success"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-success"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-warning"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-warning"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-warning"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-warning"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-danger"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-danger"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-danger"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-danger"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-primary"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-primary"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
-                    <div data-toggle="tooltip" data-placement="top" title="Click on it" class="sKutu bg-primary"
+                    <div data-toggle="tooltip" data-placement="top" title="Haga clic en él" class="sKutu bg-primary"
                       data-derece="0"><img src="assets/img/ok.png" class="img-fluid"></div>
                   </div>
                 </div>
@@ -803,15 +805,15 @@
                 <p class="card-text text-center"><img src="assets/img/soru/soru8.png" class="img-fluid"></p>
                 <div class="form-row">
                   <div class="form-group col-md-12">
-                    <label for="mektup">Delivery Point</label>
-                    <select id="mektup" name="s8_c1" class="form-control" data-uyari="Delivery Point" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">1. Delivery Point</option>
-                      <option value="2">2. Delivery Point</option>
-                      <option value="3">3. Delivery Point</option>
-                      <option value="4">4. Delivery Point</option>
-                      <option value="5">5. Delivery Point</option>
-                      <option value="6">6. Delivery Point</option>
+                    <label for="mektup">Punto de entrega</label>
+                    <select id="mektup" name="s8_c1" class="form-control" data-uyari="Punto de entrega" required>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">1. Punto de entrega</option>
+                      <option value="2">2. Punto de entrega</option>
+                      <option value="3">3. Punto de entrega</option>
+                      <option value="4">4. Punto de entrega</option>
+                      <option value="5">5. Punto de entrega</option>
+                      <option value="6">6. Punto de entrega</option>
                     </select>
                   </div>
                 </div>
@@ -819,9 +821,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru7" data-action="nav"
-                  data-controls="soru7">Previous step</a>
+                  data-controls="soru7">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru9" data-action="nav"
-                  data-controls="soru9">Next</a>
+                  data-controls="soru9">Próximo</a>
               </div>
             </div>
 
@@ -829,114 +831,114 @@
           <div class="tab-pane fade" id="list-soru9" role="tabpanel" aria-labelledby="list-soru9-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Problem Solving</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Generalization</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Resolución de problemas</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Generalización</span></div>
               <div class="card-body">
-                <h5 class="card-title">Fish Research</h5>
-                <p class="card-text">A group of scientists studied fish populations in different regions. Answer the questions according to the data obtained.</p>
+                <h5 class="card-title">Investigación pesquera</h5>
+                <p class="card-text">Un grupo de científicos estudió las poblaciones de peces en diferentes regiones. Responde a las preguntas según los datos obtenidos.</p>
                   <div class="table-responsive">
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <th scope="col">Year</th>
-                      <th scope="col">Type</th>
-                      <th scope="col">Population</th>
-                      <th scope="col">Water Level (m)</th>
-                      <th scope="col">Region</th>
+                      <th scope="col">Año</th>
+                      <th scope="col">Tipo</th>
+                      <th scope="col">Población</th>
+                      <th scope="col">Nivel del agua (m)</th>
+                      <th scope="col">Región</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th>2010</th>
-                      <td>Bean</td>
+                      <td>Judía</td>
                       <td>6.000</td>
                       <td>50</td>
-                      <td>Aegean</td>
+                      <td>Egeo</td>
                     </tr>
                     <tr>
                       <th>2017</th>
-                      <td>Anchovy</td>
+                      <td>Anchoa</td>
                       <td>10.150</td>
                       <td>88</td>
-                      <td>Euxine Sea</td>
+                      <td>Mar Euxino</td>
                     </tr>
                     <tr>
                       <th>2017</th>
-                      <td>Anchovy</td>
+                      <td>Anchoa</td>
                       <td>7.350</td>
                       <td>65</td>
-                      <td>Marmara</td>
+                      <td>Mármara</td>
                     </tr>
                     <tr>
                       <th>2019</th>
-                      <td>Gray Mullet</td>
+                      <td>Salmonete gris</td>
                       <td>2.350</td>
                       <td>38</td>
-                      <td>Mediterranean</td>
+                      <td>Mediterráneo</td>
                     </tr>
                     <tr>
                       <th>2014</th>
-                      <td>Sea Bass</td>
+                      <td>Lubina</td>
                       <td>8.430</td>
                       <td>63</td>
-                      <td>Marmara</td>
+                      <td>Mármara</td>
                     </tr>
                     <tr>
                       <th>2009</th>
-                      <td>Mackerel</td>
+                      <td>Caballa</td>
                       <td>1.430</td>
                       <td>113</td>
-                      <td>Euxine Sea</td>
+                      <td>Mar Euxino</td>
                     </tr>
                     <tr>
                       <th>2011</th>
-                      <td>Bean</td>
+                      <td>Judía</td>
                       <td>13.692</td>
                       <td>130</td>
-                      <td>Mediterranean</td>
+                      <td>Mediterráneo</td>
                     </tr>
                     <tr>
                       <th>2018</th>
-                      <td>Gray Mullet</td>
+                      <td>Salmonete gris</td>
                       <td>6.350</td>
                       <td>74</td>
-                      <td>Aegean</td>
+                      <td>Egeo</td>
                     </tr>
                     <tr>
                       <th>2016</th>
-                      <td>Mackerel</td>
+                      <td>Caballa</td>
                       <td>420</td>
                       <td>122</td>
-                      <td>Marmara</td>
+                      <td>Mármara</td>
                     </tr>
                     <tr>
                       <th>2012</th>
-                      <td>Gray Mullet</td>
+                      <td>Salmonete gris</td>
                       <td>5.150</td>
                       <td>69</td>
-                      <td>Aegean</td>
+                      <td>Egeo</td>
                     </tr>
                     <tr>
                       <th>2020</th>
-                      <td>Sea Bass</td>
+                      <td>Lubina</td>
                       <td>2.150</td>
                       <td>47</td>
-                      <td>Euxine Sea</td>
+                      <td>Mar Euxino</td>
                     </tr>
                     <tr>
                       <th>2013</th>
-                      <td>Whiting Fish</td>
+                      <td>Pez pescador</td>
                       <td>9.850</td>
                       <td>83</td>
-                      <td>Euxine Sea</td>
+                      <td>Mar Euxino</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="balik_s1">In which year was the first data obtained?</label>
+                    <label for="balik_s1">¿En qué año se obtuvieron los primeros datos?</label>
                     <select id="balik_s1" name="s9_c1" class="form-control" data-uyari="Fish Research 1" required>
-                      <option value="0" selected disabled>Select</option>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">2005</option>
                       <option value="2">2008</option>
                       <option value="3">2010</option>
@@ -945,36 +947,36 @@
                     </select>
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="balik_s4">Which region has more fish species?</label>
+                    <label for="balik_s4">¿Qué región tiene más especies de peces?</label>
                     <select id="balik_s4" name="s9_c4" class="form-control" data-uyari="Fish Research 2" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">Euxine Sea</option>
-                      <option value="2">Aegean</option>
-                      <option value="3">Marmara</option>
-                      <option value="4">Mediterranean</option>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">Mar Euxino</option>
+                      <option value="2">Egeo</option>
+                      <option value="3">Mármara</option>
+                      <option value="4">Mediterráneo</option>
                     </select>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="balik_s3">Which fish will have the highest population between 2016 and 2020?</label>
+                    <label for="balik_s3">¿Qué peces tendrán mayor población entre 2016 y 2020?</label>
                     <select id="balik_s3" name="s9_c3" class="form-control" data-uyari="Fish Research 3" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">Bean</option>
-                      <option value="2">Anchovy</option>
-                      <option value="3">Mackerel</option>
-                      <option value="4">Whiting Fish</option>
-                      <option value="5">Sea Bass</option>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">Judía</option>
+                      <option value="2">Anchoa</option>
+                      <option value="3">Caballa</option>
+                      <option value="4">Pez pescador</option>
+                      <option value="5">Lubina</option>
                     </select>
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="balik_s2">Where is the region with the lowest water level between 2017-2019?</label>
+                    <label for="balik_s2">¿Dónde está la región con el nivel de agua más bajo entre 2017 y 2019?</label>
                     <select id="balik_s2" name="s9_c2" class="form-control" data-uyari="Fish Research 4" required>
-                      <option value="0" selected disabled>Select</option>
-                      <option value="1">Euxine Sea</option>
-                      <option value="2">Aegean</option>
-                      <option value="3">Marmara</option>
-                      <option value="4">Mediterranean</option>
+                      <option value="0" selected disabled>Seleccionar</option>
+                      <option value="1">Mar Euxino</option>
+                      <option value="2">Egeo</option>
+                      <option value="3">Mármara</option>
+                      <option value="4">Mediterráneo</option>
                     </select>
                   </div>
                 </div>
@@ -982,9 +984,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru8" data-action="nav"
-                  data-controls="soru8">Previous step</a>
+                  data-controls="soru8">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru10" data-action="nav"
-                  data-controls="soru10">Next</a>
+                  data-controls="soru10">Próximo</a>
               </div>
             </div>
 
@@ -992,17 +994,17 @@
           <div class="tab-pane fade" id="list-soru10" role="tabpanel" aria-labelledby="list-soru10-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Decomposition</span> <span class="badge badge-secondary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Descomposición</span> <span class="badge badge-secondary p-2">Abstracción</span> <span class="badge badge-secondary p-2">Pensamiento algorítmico</span></div>
               <div class="card-body">
-                <h5 class="card-title">Five Sticks</h5>
-                <p class="card-text">Emre has five sticks. He obtained the 1st shape with five sticks. Then Ayşe moved one stick and obtained the 2nd shape. In the last step, Elif also moved one stick. In this case, which shape cannot be obtained by Elif?</p>
+                <h5 class="card-title">Cinco palos</h5>
+                <p class="card-text">Emre tiene cinco palos. Obtuvo la 1ª forma con cinco palos. Entonces Raquel movió un palo y obtuvo la 2ª forma. En el último paso, Elif también movió un palo. En este caso, ¿qué figura no puede obtener Elif?</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru9.png" class="img-fluid"></p>
 
                 <div class="form-row">
                   <div class="form-group col-md-12">
-                    <label for="soru9">Shape Number</label>
-                    <select id="soru9" name="s10_c1" class="form-control" data-uyari="Five Number" required>
-                      <option value="0" selected disabled>Select</option>
+                    <label for="soru9">Forma Número</label>
+                    <select id="soru9" name="s10_c1" class="form-control" data-uyari="Cinco palos" required>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="3">3</option>
                       <option value="4">4</option>
                       <option value="5">5</option>
@@ -1014,9 +1016,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru9" data-action="nav"
-                  data-controls="soru9">Previous step</a>
+                  data-controls="soru9">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru11" data-action="nav"
-                  data-controls="soru11">Next</a>
+                  data-controls="soru11">Próximo</a>
               </div>
             </div>
 
@@ -1024,10 +1026,10 @@
           <div class="tab-pane fade" id="list-soru11" role="tabpanel" aria-labelledby="list-soru11-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Abstracción</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Pensamiento algorítmico</span></div>
               <div class="card-body">
-                <h5 class="card-title">Car Wash</h5>
-                <p class="card-text">Three cars can be washed at the same time in a car wash. Five cars come to this car wash and each car is numbered from 1 to 5. Cars were taken into the washing area from smallest to largest according to the numbers they had. After the washing process of the cars was over, the numbers were reversed and the cars left the washing area in descending order according to the numbers they had.<br><br>According to this, what is the delivery order of the cars? You can change the Delivery Order by drag and drop.
+                <h5 class="card-title">Lavado de coches</h5>
+                <p class="card-text">En un túnel de lavado se pueden lavar tres coches al mismo tiempo. A este túnel de lavado llegan cinco coches y cada uno de ellos está numerado del 1 al 5. Los coches se introducían en la zona de lavado de menor a mayor según los números que tenían. Una vez terminado el proceso de lavado de los coches, se invierten los números y los coches salen de la zona de lavado en orden descendente según los números que tenían.<br><br>Según esto, ¿cuál es el orden de entrega de los coches? Puede cambiar el Orden de entrega arrastrando y soltando.
                 <!-- Bir oto kuaförde aynı anda 3 araç yıkanabilmektedir. Aynı anda beş otomobil gelmiş ve her bir otomobil geliş sırasına göre 1'den 5'e kadar numaralandırılmıştır. <u>Otomobiller, geliş sırasına göre yıkama alanına alınmıştır.</u> Otomobiller teslimat alanına geçişi sırasında geliş sırasının tam tersi şeklinde numaraları yer değiştirmiştir.<br><br>Buna göre otomobiller hangi teslimat sırasına göre teslimat alanından çıkış yapmalıdır? Teslimat Sırasını sürükle-bırak yöntemiyle değiştirebilirsin.--></p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru10.png" class="img-fluid"></p>
 
@@ -1035,13 +1037,13 @@
                 <div class="container">
                   <div class="row">
                     <div class="col">
-                      <h5>Delivery Order</h5>
+                      <h5>Orden de entrega</h5>
                       <ul id="otoKuafor" class="list-group">
-                        <li class="list-group-item list-group-item-action bg-dark text-white" data-arac="1">Black Car</li>
-                        <li class="list-group-item list-group-item-action bg-danger text-white" data-arac="2">Red Car</li>
-                        <li class="list-group-item list-group-item-action bg-success text-white" data-arac="3">Green Car</li>
-                        <li class="list-group-item list-group-item-action bg-warning" data-arac="4">Yellow Car</li>
-                        <li class="list-group-item list-group-item-action bg-primary text-white" data-arac="5">Blue Car</li>
+                        <li class="list-group-item list-group-item-action bg-dark text-white" data-arac="1">Coche negro</li>
+                        <li class="list-group-item list-group-item-action bg-danger text-white" data-arac="2">Coche rojo</li>
+                        <li class="list-group-item list-group-item-action bg-success text-white" data-arac="3">Coche ecológico</li>
+                        <li class="list-group-item list-group-item-action bg-warning" data-arac="4">Coche amarillo</li>
+                        <li class="list-group-item list-group-item-action bg-primary text-white" data-arac="5">Coche azul</li>
                       </ul>
                     </div>
                   </div>
@@ -1051,9 +1053,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru10" data-action="nav"
-                  data-controls="soru10">Previous step</a>
+                  data-controls="soru10">Paso previo</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru12" data-action="nav"
-                  data-controls="soru12">Next</a>
+                  data-controls="soru12">Próximo</a>
               </div>
             </div>
 
@@ -1061,19 +1063,19 @@
           <div class="tab-pane fade" id="list-soru12" role="tabpanel" aria-labelledby="list-soru12-list">
 
             <div class="card">
-              <div class="card-header"><span class="badge badge-primary p-2">Abstraction</span> <span class="badge badge-secondary p-2">Evaluation</span> <span class="badge badge-secondary p-2">Algorithmic Thinking</span></div>
+              <div class="card-header"><span class="badge badge-primary p-2">Abstracción</span> <span class="badge badge-secondary p-2">Evaluación</span> <span class="badge badge-secondary p-2">Pensamiento algorítmico</span></div>
               <div class="card-body">
-                <h5 class="card-title">Book Club</h5>
-                <p class="card-text">The relationship between 7 students in a book club is shown in the graph. According to this graph, the names and ages of the students are known. The book club has some rules:</p>
-                <p class="card-text">If you haven't read the book yet, read it when you get it and then give it to the youngest friend who hasn't read it. If all your friends have read the book, you should give it to the friend who gave it to you first. For example, Emre is friends with Ayşe, Özgen and Elif and Emre's youngest friend is Ayşe.</p>
-                <p class="card-text">Since Emre was the first person to read the book, who is the last person to read the book? (No one has read the book before)</p>
+                <h5 class="card-title">Club de lectura</h5>
+                <p class="card-text">En el gráfico se muestra la relación entre 7 alumnos de un club de lectura. Según este gráfico, se conocen los nombres y las edades de los alumnos. El club de lectura tiene algunas reglas:</p>
+                <p class="card-text">Si aún no has leído el libro, léelo cuando lo recibas y luego regálaselo al amigo más joven que no lo haya leído. Si todos tus amigos han leído el libro, debes dárselo al amigo que te lo dio primero. Por ejemplo, Emre es amigo de Ayşe, Özgen y Elif y la amiga más joven de Emre es Ayşe.</p>
+                <p class="card-text">Puesto que Emre fue la primera persona que leyó el libro, ¿quién es la última persona que lo leyó? (Nadie ha leído el libro antes)</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru11.png" class="img-fluid"></p>
 
                 <div class="form-row">
                   <div class="form-group col-md-12">
-                    <label for="soru12">The Last Person to Read the Book</label>
-                    <select id="soru12" name="s12_c1" class="form-control" data-uyari="Book Club" required>
-                      <option value="0" selected disabled>Select</option>
+                    <label for="soru12">La última persona en leer el libro</label>
+                    <select id="soru12" name="s12_c1" class="form-control" data-uyari="Club de lectura" required>
+                      <option value="0" selected disabled>Seleccionar</option>
                       <option value="2">Ayşe</option>
                       <option value="6">Özgen</option>
                       <option value="3">Beril</option>
@@ -1087,8 +1089,8 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru11" data-action="nav"
-                  data-controls="soru11">Previous step</a>
-                <input class="btn btn-success" type="submit" id="submit" value="Finish">
+                  data-controls="soru11">Paso previo</a>
+                <input class="btn btn-success" type="submit" id="submit" value="Terminar">
                 
               </div>
             </div>

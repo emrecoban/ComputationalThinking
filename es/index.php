@@ -38,8 +38,8 @@
         <div id="ortala">
           <img src="assets/img/logo.png" width="90" height="90" alt="bilgisayarca düşünme logo" class="itembottommargin">
           <h2 class="itembottommargin" style="font-weight:bold;">Computational Thinking Score</h2>
-          <h5 class="itembottommargin">Test your Computational Thinking skills quickly and easily.</h5>
-          <a class="btn btn-success btn-lg itembottommargin" href="start.php" role="button">Start</a>
+          <h5 class="itembottommargin">Pon a prueba tus habilidades de pensamiento computacional de forma rápida y sencilla.</h5>
+          <a class="btn btn-success btn-lg itembottommargin" href="start.php" role="button">Comenzar</a>
         </div>
       </div>
     </div>
@@ -48,47 +48,47 @@
   <div class="container mt-3 mb-3">
     <div class="row align-items-center">
       <div class="col">
-          <h3>Computational Thinking</h3>
-          <p class="text-justify">Computational Thinking is the process of approaching a problem systematically and creating a solution. It includes a set of skills that includes problem solving skills and methods. Through this skill set, it is aimed to understand and analyze complex problems and develop solutions to the problem. Individuals with the Components of Computational Thinking are expected to think like a computer scientist and apply this way of thinking in all disciplines.</p>
+          <h3>Pensamiento Computacional</h3>
+          <p class="text-justify">El pensamiento computacional es el proceso de abordar un problema de forma sistemática y crear una solución. Incluye un conjunto de destrezas que incluyen habilidades y métodos de resolución de problemas. Mediante este conjunto de habilidades, se pretende comprender y analizar problemas complejos y desarrollar soluciones al problema. Se espera que las personas con los componentes del pensamiento computacional piensen como un informático y apliquen esta forma de pensar en todas las disciplinas.</p>
       </div>
       <div class="col-md-auto"><img src="assets/img/ct-logo.png" class="img-fluid mx-auto d-block mb-2"></div>
     </div>
   </div>
   <!-- ct skills -->
   <div class="container mb-3">
-    <div class="row"><div class="col"><h3>The Components of Computational Thinking</h3></div></div>
+    <div class="row"><div class="col"><h3>Componentes del pensamiento computacional</h3></div></div>
     <div class="row">
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp2.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Problem Solving
+        Resolución de problemas
       </div>
     </div>
     <div class="row">
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp6.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Abstraction
+        Abstracción
       </div>
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp5.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Algorithmic Thinking
+        Pensamiento algorítmico
       </div>
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp3.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Decomposition
+        Descomposición
       </div>
     </div>
     <div class="row">
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp7.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Critical Thinking
+        Pensamiento crítico
       </div>
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp4.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Creative Thinking
+        Pensamiento creativo
       </div>
       <div class="col bg-light text-dark m-2 p-2 text-center skillBox">
         <img src="assets/img/cmp1.png" width="64" height="64" class="rounded mx-auto d-block mb-2" alt="problem solving">
-        Recognition Pattern
+        Reconocimiento de patrones
       </div>
     </div>
     
@@ -102,7 +102,7 @@
             <div class="col-lg-12">
               <img src="assets/img/logo_2.png" class="img-fluid mb-3">
               <h2><b>Computational Thinking Score</b></h2>
-              <p>Computational Thinking Score is a web application that measures computer thinking skills, which are among the 21st century skills. By using the web application developed for high school students, students will be able to measure their skill levels online, which have been shown to be valid and reliable on the components of computational thinking.</p>
+              <p>Computational Thinking Score es una aplicación web que mide las habilidades de pensamiento computacional, que se encuentran entre las habilidades del siglo XXI. Al utilizar la aplicación web desarrollada para estudiantes de secundaria, los alumnos podrán medir en línea sus niveles de destreza, que han demostrado ser válidos y fiables en los componentes del pensamiento computacional.</p>
             </div>
           </div>
         </div>
