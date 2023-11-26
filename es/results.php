@@ -114,9 +114,9 @@ $result = $conn->query($sql);
                       </tr>
                       <tr>
                         <th scope="row">2. Encrypted Text</th>
-                        <td class="<?php if(!strcmp($r["s2_c1"],"strawberry season")){echo "table-success";
-          }elseif(!strcmp($r["s2_c1"],"STRAWBERRY SEASON")){echo "table-success";
-          }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Strawberry Season")</td>
+                        <td class="<?php if(!strcmp($r["s2_c1"],"temporada de fresas")){echo "table-success";
+          }elseif(!strcmp($r["s2_c1"],"TEMPRODA DE FRESAS")){echo "table-success";
+          }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Temporada de Fresas")</td>
                       </tr>
                       <tr>
                         <th scope="row">3. Tour Guide</th>
