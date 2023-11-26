@@ -115,7 +115,7 @@ $result = $conn->query($sql);
                       <tr>
                         <th scope="row">2. Encrypted Text</th>
                         <td class="<?php if(!strcmp($r["s2_c1"],"temporada de fresas")){echo "table-success";
-          }elseif(!strcmp($r["s2_c1"],"TEMPRODA DE FRESAS")){echo "table-success";
+          }elseif(!strcmp($r["s2_c1"],"TEMPORADA DE FRESAS")){echo "table-success";
           }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Temporada de Fresas")</td>
                       </tr>
                       <tr>

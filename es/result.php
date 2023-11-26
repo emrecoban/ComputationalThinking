@@ -86,7 +86,7 @@
           //Soru2
           $s2_c1 = isset($_POST["s2_c1"]) ? strtoupper(pre_up($_POST["s2_c1"])) : "";
           if(!strcmp($s2_c1,"temporada de fresas")){$puan_yd=$puan_yd+10;
-          }elseif(!strcmp($s2_c1,"TEMPRODA DE FRESAS")){$puan_yd=$puan_yd+10;}
+          }elseif(!strcmp($s2_c1,"TEMPORADA DE FRESAS")){$puan_yd=$puan_yd+10;}
 
           
           //Soru3
