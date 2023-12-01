@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Results - Computational Thinking Score</title>
+  <title>Resultados - Computational Thinking Score</title>
   <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
@@ -46,7 +46,7 @@ $result = $conn->query($sql);
           <div class="container">
             <h1 class="display-4"><?=$total_rows?></h1>
             <p class="lead">Total</p>
-            <p><span style="color:red">red</span> is wrong; <span style="color:green">green</span> is correct.</p>
+            <p><span style="color:red">rojo</span> es incorrecto; <span style="color:verde">verde</span> es correcto.</p>
           </div>
         </div>
         <div class="list-group" id="list-tab" role="tablist">
@@ -56,7 +56,7 @@ $result = $conn->query($sql);
                     <h6 class="mb-1 text-uppercase"><?=$r["AdSoyad"]?></h6>
                     <small><span class="badge badge-success p-1" style="font-size:12px;"><?=$r["puan_total"]?></span></small>
                 </div>
-                <small>Level/Course: <?=$r["Sinif"]?><br><?php 
+                <small>Level/Curso: <?=$r["Sinif"]?><br><?php 
                 if($r["Cinsiyet"]=="1"){echo "Woman";}elseif($r["Cinsiyet"]=="2"){echo "Man";}else{echo "Other";}?> - <?=$r["OkulNo"]?> - <?=date_format(date_create($r["Date_"]),"d.m.Y H:i")?></small>
             </a>
         <?php } ?>
@@ -85,119 +85,119 @@ $result = $conn->query($sql);
                   <table class="table table-bordered">
                     <thead class="thead-light">
                       <tr>
-                        <th scope="col">Question</th>
-                        <th scope="col">Response from the student</th>
+                        <th scope="col">Pregunta</th>
+                        <th scope="col">Respuesta del alumno</th>
                         <!-- BİLEŞEN EKLENEBİLİR -->
                       </tr>
                     </thead>
                     <tbody>
                       <tr class="table-success">
-                        <th scope="row">Computational Thinking Score Level</th>
+                        <th scope="row">Pensamiento computacional Nivel de puntuación</th>
                         <td><?=$r["puan_total"]?>/120</td>
                       </tr>
                       <tr>
-                        <th scope="row" rowspan="4" class="align-middle">1. Weird Dog</th>
-                        <td class="<?=$r["s1_c1"]==3 ? "table-success" : "table-danger"?>">1. Row: <?=$r["s1_c1"]?></td>
+                        <th scope="row" rowspan="4" class="align-middle">1. Perro raro</th>
+                        <td class="<?=$r["s1_c1"]==3 ? "table-success" : "table-danger"?>">1. Fila: <?=$r["s1_c1"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s1_c2"]==1 ? "table-success" : "table-danger"?>">2. Row: <?=$r["s1_c2"]?></td>
+                        <td class="<?=$r["s1_c2"]==1 ? "table-success" : "table-danger"?>">2. Fila: <?=$r["s1_c2"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s1_c3"]==6 ? "table-success" : "table-danger"?>">3. Row: <?=$r["s1_c3"]?></td>
+                        <td class="<?=$r["s1_c3"]==6 ? "table-success" : "table-danger"?>">3. Fila: <?=$r["s1_c3"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s1_c4"]==7 ? "table-success" : "table-danger"?>">4. Row: <?=$r["s1_c4"]?></td>
+                        <td class="<?=$r["s1_c4"]==7 ? "table-success" : "table-danger"?>">4. Fila: <?=$r["s1_c4"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Recognition Pattern</th>
+                        <th scope="row">Reconocimiento de patrones</th>
                         <td><?=$r["puan_ot"]?>/10</td>
                       </tr>
                       <tr>
-                        <th scope="row">2. Encrypted Text</th>
+                        <th scope="row">2. Texto encriptado</th>
                         <td class="<?php if(!strcmp($r["s2_c1"],"temporada de fresas")){echo "table-success";
           }elseif(!strcmp($r["s2_c1"],"TEMPORADA DE FRESAS")){echo "table-success";
-          }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Correct answer: "Temporada de Fresas")</td>
+          }else{echo "table-danger";}?>"><?=$r["s2_c1"]?> (Respuesta correcta: "Temporada de Fresas")</td>
                       </tr>
                       <tr>
-                        <th scope="row">3. Tour Guide</th>
+                        <th scope="row">3. Guía turística</th>
                         <td class="<?php if($r["s3_c1"]=="0,1,8,3,9,5,7,6,4,2,0" || $r["s3_c1"]=="0,2,4,6,7,5,9,3,8,1,0"){echo "table-success";}else{echo "table-danger";}?>"><?=$r["s3_c1"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Creative Thinking</th>
+                        <th scope="row">Pensamiento creativo</th>
                         <td><?=$r["puan_yd"]?>/20</td>
                       </tr>
                       <tr>
-                        <th scope="row">4. Temperature Sensor</th>
+                        <th scope="row">4. Sensor de temperatura</th>
                         <td class="<?=$r["s4_c1"]==3 ? "table-success" : "table-danger"?>"><?=$r["s4_c1"]?></td>
                       </tr>
                       <tr>
-                        <th scope="row">6. Candy Maze</th>
+                        <th scope="row">6. Laberinto de caramelos</th>
                         <td class="<?=$r["s6_c1"]==3 ? "table-success" : "table-danger"?>"><?=$r["s6_c1"]?></td>
                       </tr>
                       <tr>
-                        <th scope="row">8. Cipher Mail</th>
+                        <th scope="row">8. Correo cifrado</th>
                         <td class="<?=$r["s8_c1"]==3 ? "table-success" : "table-danger"?>"><?=$r["s8_c1"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Algorithmic Thinking</th>
+                        <th scope="row">Pensamiento algorítmico</th>
                         <td><?=$r["puan_ad"]?>/30</td>
                       </tr>
                       <tr>
-                        <th scope="row">5. Engineer Team</th>
+                        <th scope="row">5. Equipo de ingenieros</th>
                         <td class="<?=$r["s5_c1"]=="1,1,1,1,1,1,2,2,2,2,3,3,3,3,4,4,1,1" ? "table-success" : "table-danger"?>"><?=$r["s5_c1"]?></td>
                       </tr>
                       <tr>
-                        <th scope="row" rowspan="4" class="align-middle">9. Fish Research</th>
-                        <td class="<?=$r["s9_c1"]==4 ? "table-success" : "table-danger"?>">1. Question: <?=$r["s9_c1"]?></td>
+                        <th scope="row" rowspan="4" class="align-middle">9. Investigación pesquera</th>
+                        <td class="<?=$r["s9_c1"]==4 ? "table-success" : "table-danger"?>">1. Pregunta: <?=$r["s9_c1"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s9_c2"]==4 ? "table-success" : "table-danger"?>">2. Question: <?=$r["s9_c2"]?></td>
+                        <td class="<?=$r["s9_c2"]==4 ? "table-success" : "table-danger"?>">2. Pregunta: <?=$r["s9_c2"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s9_c3"]==2 ? "table-success" : "table-danger"?>">3. Question: <?=$r["s9_c3"]?></td>
+                        <td class="<?=$r["s9_c3"]==2 ? "table-success" : "table-danger"?>">3. Pregunta: <?=$r["s9_c3"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s9_c4"]==1 ? "table-success" : "table-danger"?>">4. Question: <?=$r["s9_c4"]?></td>
+                        <td class="<?=$r["s9_c4"]==1 ? "table-success" : "table-danger"?>">4. Pregunta: <?=$r["s9_c4"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Problem Solving</th>
+                        <th scope="row">Resolución de problemas</th>
                         <td><?=$r["puan_pc"]?>/20</td>
                       </tr>
                       <tr>
-                        <th scope="row" rowspan="4" class="align-middle">7. Hidden Number</th>
-                        <td class="<?=$r["s_a1"]=='1' && $r["s_b1"]=='0' && $r["s_c1"]=='1' && $r["s_d1"]=='1' && $r["s_e1"]=='1' && $r["s_f1"]=='1' && $r["s_g1"]=='1' ? "table-success" : "table-danger"?>">1. Row: <?=$r["s_a1"]?>, <?=$r["s_b1"]?>, <?=$r["s_c1"]?>, <?=$r["s_d1"]?>, <?=$r["s_e1"]?>, <?=$r["s_f1"]?>, <?=$r["s_g1"]?></td>
+                        <th scope="row" rowspan="4" class="align-middle">7. Número oculto</th>
+                        <td class="<?=$r["s_a1"]=='1' && $r["s_b1"]=='0' && $r["s_c1"]=='1' && $r["s_d1"]=='1' && $r["s_e1"]=='1' && $r["s_f1"]=='1' && $r["s_g1"]=='1' ? "table-success" : "table-danger"?>">1. Fila: <?=$r["s_a1"]?>, <?=$r["s_b1"]?>, <?=$r["s_c1"]?>, <?=$r["s_d1"]?>, <?=$r["s_e1"]?>, <?=$r["s_f1"]?>, <?=$r["s_g1"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s_a2"]=='1' && $r["s_b2"]=='1' && $r["s_c2"]=='1' && $r["s_d2"]=='1' && $r["s_e2"]=='1' && $r["s_f2"]=='1' && $r["s_g2"]=='1' ? "table-success" : "table-danger"?>">2. Row: <?=$r["s_a2"]?>, <?=$r["s_b2"]?>, <?=$r["s_c2"]?>, <?=$r["s_d2"]?>, <?=$r["s_e2"]?>, <?=$r["s_f2"]?>, <?=$r["s_g2"]?></td>
+                        <td class="<?=$r["s_a2"]=='1' && $r["s_b2"]=='1' && $r["s_c2"]=='1' && $r["s_d2"]=='1' && $r["s_e2"]=='1' && $r["s_f2"]=='1' && $r["s_g2"]=='1' ? "table-success" : "table-danger"?>">2. Fila: <?=$r["s_a2"]?>, <?=$r["s_b2"]?>, <?=$r["s_c2"]?>, <?=$r["s_d2"]?>, <?=$r["s_e2"]?>, <?=$r["s_f2"]?>, <?=$r["s_g2"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s_a3"]=='0' && $r["s_b3"]=='1' && $r["s_c3"]=='1' && $r["s_d3"]=='0' && $r["s_e3"]=='0' && $r["s_f3"]=='0' && $r["s_g3"]=='0' ? "table-success" : "table-danger"?>">3. Row: <?=$r["s_a3"]?>, <?=$r["s_b3"]?>, <?=$r["s_c3"]?>, <?=$r["s_d3"]?>, <?=$r["s_e3"]?>, <?=$r["s_f3"]?>, <?=$r["s_g3"]?></td>
+                        <td class="<?=$r["s_a3"]=='0' && $r["s_b3"]=='1' && $r["s_c3"]=='1' && $r["s_d3"]=='0' && $r["s_e3"]=='0' && $r["s_f3"]=='0' && $r["s_g3"]=='0' ? "table-success" : "table-danger"?>">3. Fila: <?=$r["s_a3"]?>, <?=$r["s_b3"]?>, <?=$r["s_c3"]?>, <?=$r["s_d3"]?>, <?=$r["s_e3"]?>, <?=$r["s_f3"]?>, <?=$r["s_g3"]?></td>
                       </tr>
                       <tr>
-                        <td class="<?=$r["s_a4"]=='1' && $r["s_b4"]=='1' && $r["s_c4"]=='1' && $r["s_d4"]=='1' && $r["s_e4"]=='0' && $r["s_f4"]=='0' && $r["s_g4"]=='1' ? "table-success" : "table-danger"?>">4. Row: <?=$r["s_a4"]?>, <?=$r["s_b4"]?>, <?=$r["s_c4"]?>, <?=$r["s_d4"]?>, <?=$r["s_e4"]?>, <?=$r["s_f4"]?>, <?=$r["s_g4"]?></td>
+                        <td class="<?=$r["s_a4"]=='1' && $r["s_b4"]=='1' && $r["s_c4"]=='1' && $r["s_d4"]=='1' && $r["s_e4"]=='0' && $r["s_f4"]=='0' && $r["s_g4"]=='1' ? "table-success" : "table-danger"?>">4. Fila: <?=$r["s_a4"]?>, <?=$r["s_b4"]?>, <?=$r["s_c4"]?>, <?=$r["s_d4"]?>, <?=$r["s_e4"]?>, <?=$r["s_f4"]?>, <?=$r["s_g4"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Critical Thinking</th>
+                        <th scope="row">Pensamiento crítico</th>
                         <td><?=$r["puan_kd"]?>/10</td>
                       </tr>
                       <tr>
-                        <th scope="row">10. Five Sticks</th>
+                        <th scope="row">10. Cinco palos</th>
                         <td class="<?=$r["s10_c1"]==6 ? "table-success" : "table-danger"?>"><?=$r["s10_c1"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Decomposition</th>
+                        <th scope="row">Descomposición</th>
                         <td><?=$r["puan_a"]?>/10</td>
                       </tr>
                       <tr>
-                        <th scope="row">11. Car Wash</th>
+                        <th scope="row">11. Lavado de coches</th>
                         <td class="<?=$r["s11_c1"]=='5,2,1,4,3' ? "table-success" : "table-danger"?>"><?=$r["s11_c1"]?></td>
                       </tr>
                       <tr>
-                        <th scope="row">12. Book Club</th>
+                        <th scope="row">12. Club de lectura</th>
                         <td class="<?=$r["s12_c1"]==6 ? "table-success" : "table-danger"?>"><?=$r["s12_c1"]?></td>
                       </tr>
                       <tr class="table-info">
-                        <th scope="row">Abstraction</th>
+                        <th scope="row">Abstracción</th>
                         <td><?=$r["puan_s"]?>/20</td>
                       </tr>
                     </tbody>

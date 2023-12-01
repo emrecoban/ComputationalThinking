@@ -148,7 +148,7 @@
 
                 <div class="form-group">
                   <label for="inputCity">Apodo</label>
-                  <input type="text" class="form-control text-uppercase" id="adsoyad" name="adsoyad" maxlength="30" data-uyari="Profile: Nickname" required>
+                  <input type="text" class="form-control text-uppercase" id="adsoyad" name="adsoyad" maxlength="30" data-uyari="Apodo" required>
                 </div>
                 <div class="form-row">
                   <div class="form-group col-md-3" style="display:none;">
@@ -157,13 +157,13 @@
                   </div>
                   <div class="form-group col-md-4">
                     <label for="okultip">Tipo de escuela</label>
-                    <select id="okultip" name="okultip" class="form-control" data-uyari="Profile: School Type" required>
+                    <select id="okultip" name="okultip" class="form-control" data-uyari="Tipo de escuela" required>
                       <option value="1" selected>Saltar este campo</option>
                     </select>
                   </div>
                   <div class="form-group col-md-4">
                     <label for="cinsiyet">Género</label>
-                    <select id="cinsiyet" name="cinsiyet" class="form-control" data-uyari="Profile: Gender" required>
+                    <select id="cinsiyet" name="cinsiyet" class="form-control" data-uyari="Género" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">Mujer</option>
                       <option value="2">Hombre</option>
@@ -172,19 +172,19 @@
                   </div>
                   <div class="form-group col-md-4">
                     <label for="sinif">Nivel/Curso/Clase</label>
-                    <select id="sinif" name="sinif" class="form-control" data-uyari="Profile: Grade" required>
+                    <select id="sinif" name="sinif" class="form-control" data-uyari="Nivel/Curso/Clase" required>
                       <option value="0" selected disabled>Seleccionar</option>
-                      <option value="1">1er</option>
-                      <option value="2">2do</option>
-                      <option value="3">3er</option>
-                      <option value="4">4to</option>
+                      <option value="1">1º</option>
+                      <option value="2">2º</option>
+                      <option value="3">3º</option>
+                      <option value="4">4º</option>
                     </select>
                   </div>
                 </div>
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru1" data-action="nav"
-                  data-controls="soru1">Próximo</a>
+                  data-controls="soru1">Siguiente</a>
               </div>
             </div>
 
@@ -203,7 +203,7 @@
                 <div class="form-row">
                   <div class="form-group col-md-3">
                     <label for="satir1">1. Fila</label>
-                    <select id="satir1" name="s1_c1" class="form-control" data-uyari="Weird Dog: 1. Row" required>
+                    <select id="satir1" name="s1_c1" class="form-control" data-uyari="Perro raro: 1. Fila" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -219,7 +219,7 @@
                   </div>
                   <div class="form-group col-md-3">
                     <label for="satir2">2. Fila</label>
-                    <select id="satir2" name="s1_c2" class="form-control" data-uyari="Weird Dog: 2. Row" required>
+                    <select id="satir2" name="s1_c2" class="form-control" data-uyari="Perro raro: 2. Fila" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -235,7 +235,7 @@
                   </div>
                   <div class="form-group col-md-3">
                     <label for="satir3">3. Fila</label>
-                    <select id="satir3" name="s1_c3" class="form-control" data-uyari="Weird Dog: 3. Row" required>
+                    <select id="satir3" name="s1_c3" class="form-control" data-uyari="Perro raro: 3. Fila" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -251,7 +251,7 @@
                   </div>
                   <div class="form-group col-md-3">
                     <label for="satir4">4. Fila</label>
-                    <select id="satir4" name="s1_c4" class="form-control" data-uyari="Weird Dog: 4. Row" required>
+                    <select id="satir4" name="s1_c4" class="form-control" data-uyari="Perro raro: 4. Fila" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -270,9 +270,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-baslangic" data-action="nav"
-                  data-controls="baslangic">Paso previo</a>
+                  data-controls="baslangic">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru2" data-action="nav"
-                  data-controls="soru2">Próximo</a>
+                  data-controls="soru2">Siguiente</a>
               </div>
             </div>
 
@@ -372,9 +372,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru1" data-action="nav"
-                  data-controls="soru1">Paso previo</a>
+                  data-controls="soru1">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru3" data-action="nav"
-                  data-controls="soru3">Próximo</a>
+                  data-controls="soru3">Siguiente</a>
               </div>
             </div>
 
@@ -419,9 +419,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru2" data-action="nav"
-                  data-controls="soru2">Paso previo</a>
+                  data-controls="soru2">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru4" data-action="nav"
-                  data-controls="soru4">Próximo</a>
+                  data-controls="soru4">Siguiente</a>
               </div>
             </div>
 
@@ -547,9 +547,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru3" data-action="nav"
-                  data-controls="soru3">Paso previo</a>
+                  data-controls="soru3">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru5" data-action="nav"
-                  data-controls="soru5">Próximo</a>
+                  data-controls="soru5">Siguiente</a>
               </div>
             </div>
           </div>
@@ -613,9 +613,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru4" data-action="nav"
-                  data-controls="soru4">Paso previo</a>
+                  data-controls="soru4">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru6" data-action="nav"
-                  data-controls="soru6">Próximo</a>
+                  data-controls="soru6">Siguiente</a>
               </div>
             </div>
 
@@ -634,11 +634,11 @@
                     <label for="seker">Recuento de caramelos</label>
                     <select id="seker" name="s6_c1" class="form-control" data-uyari="Recuento de caramelos" required>
                       <option value="0" selected disabled>Seleccionar</option>
-                      <option value="1">10 Caramelo</option>
-                      <option value="5">11 Caramelo</option>
-                      <option value="2">12 Caramelo</option>
-                      <option value="3">14 Caramelo</option>
-                      <option value="4">16 Caramelo</option>
+                      <option value="1">10 Caramelos</option>
+                      <option value="5">11 Caramelos</option>
+                      <option value="2">12 Caramelos</option>
+                      <option value="3">14 Caramelos</option>
+                      <option value="4">16 Caramelos</option>
                     </select>
                   </div>
                 </div>
@@ -646,9 +646,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru5" data-action="nav"
-                  data-controls="soru5">Paso previo</a>
+                  data-controls="soru5">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru7" data-action="nav"
-                  data-controls="soru7">Próximo</a>
+                  data-controls="soru7">Siguiente</a>
               </div>
             </div>
 
@@ -659,7 +659,7 @@
               <div class="card-body">
                 <h5 class="card-title">Número oculto</h5>
                 <p class="card-text">Un programador de ordenadores quiere mostrar números digitales utilizando 7 LEDs. Cada parte del LED está etiquetada como se muestra en la imagen (A, B, C, D, E, F y G).
-                ¿Qué partes LED debe encender el programador para escribir el número <kbd>6813</kbd>? Por ejemplo, en la imagen aparece el número 103.</p>
+                ¿Qué partes del LED debe encender el programador para escribir el número <kbd>6813</kbd>? Por ejemplo, en la imagen aparece el número 103.</p>
                 <p class="card-text text-center"><img src="assets/img/soru/soru7.png" class="img-fluid"></p>
 
                 <table class="table table-hover text-center table-bordered" id="sayibul">
@@ -750,9 +750,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru6" data-action="nav"
-                  data-controls="soru6">Paso previo</a>
+                  data-controls="soru6">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru8" data-action="nav"
-                  data-controls="soru8">Próximo</a>
+                  data-controls="soru8">Siguiente</a>
               </div>
             </div>
 
@@ -821,9 +821,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru7" data-action="nav"
-                  data-controls="soru7">Paso previo</a>
+                  data-controls="soru7">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru9" data-action="nav"
-                  data-controls="soru9">Próximo</a>
+                  data-controls="soru9">Siguiente</a>
               </div>
             </div>
 
@@ -937,7 +937,7 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="balik_s1">¿En qué año se obtuvieron los primeros datos?</label>
-                    <select id="balik_s1" name="s9_c1" class="form-control" data-uyari="Fish Research 1" required>
+                    <select id="balik_s1" name="s9_c1" class="form-control" data-uyari="Investigación pesquera 1" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">2005</option>
                       <option value="2">2008</option>
@@ -948,7 +948,7 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="balik_s4">¿Qué región tiene más especies de peces?</label>
-                    <select id="balik_s4" name="s9_c4" class="form-control" data-uyari="Fish Research 2" required>
+                    <select id="balik_s4" name="s9_c4" class="form-control" data-uyari="Investigación pesquera 2" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">Mar Euxino</option>
                       <option value="2">Egeo</option>
@@ -960,7 +960,7 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="balik_s3">¿Qué peces tendrán mayor población entre 2016 y 2020?</label>
-                    <select id="balik_s3" name="s9_c3" class="form-control" data-uyari="Fish Research 3" required>
+                    <select id="balik_s3" name="s9_c3" class="form-control" data-uyari="Investigación pesquera 3" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">Judía</option>
                       <option value="2">Anchoa</option>
@@ -971,7 +971,7 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="balik_s2">¿Dónde está la región con el nivel de agua más bajo entre 2017 y 2019?</label>
-                    <select id="balik_s2" name="s9_c2" class="form-control" data-uyari="Fish Research 4" required>
+                    <select id="balik_s2" name="s9_c2" class="form-control" data-uyari="Investigación pesquera 4" required>
                       <option value="0" selected disabled>Seleccionar</option>
                       <option value="1">Mar Euxino</option>
                       <option value="2">Egeo</option>
@@ -984,9 +984,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru8" data-action="nav"
-                  data-controls="soru8">Paso previo</a>
+                  data-controls="soru8">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru10" data-action="nav"
-                  data-controls="soru10">Próximo</a>
+                  data-controls="soru10">Siguiente</a>
               </div>
             </div>
 
@@ -1016,9 +1016,9 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru9" data-action="nav"
-                  data-controls="soru9">Paso previo</a>
+                  data-controls="soru9">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru11" data-action="nav"
-                  data-controls="soru11">Próximo</a>
+                  data-controls="soru11">Siguiente</a>
               </div>
             </div>
 
@@ -1048,14 +1048,14 @@
                     </div>
                   </div>
                 </div>
-                <input type="text" name="s11_c1" id="otocevap" data-uyari="Car Wash" class="d-none" required>
+                <input type="text" name="s11_c1" id="otocevap" data-uyari="Lavado de coches" class="d-none" required>
 
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru10" data-action="nav"
-                  data-controls="soru10">Paso previo</a>
+                  data-controls="soru10">Anterior</a>
                 <a class="btn btn-primary" data-toggle="list" href="#list-soru12" data-action="nav"
-                  data-controls="soru12">Próximo</a>
+                  data-controls="soru12">Siguiente</a>
               </div>
             </div>
 
@@ -1089,7 +1089,7 @@
               </div>
               <div class="card-footer text-muted text-right">
                 <a class="btn btn-outline-secondary" data-toggle="list" href="#list-soru11" data-action="nav"
-                  data-controls="soru11">Paso previo</a>
+                  data-controls="soru11">Anterior</a>
                 <input class="btn btn-success" type="submit" id="submit" value="Terminar">
                 
               </div>
@@ -1113,19 +1113,19 @@
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="controlModalLongTitle">Warning</h5>
+        <h5 class="modal-title" id="controlModalLongTitle">Advertencia</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <div class="alert alert-danger" role="alert">
-        Please complete all fields in full.
+        Rellene todos los campos.
         </div>
         <div id="gereklialanlar"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Okay</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
       </div>
     </div>
   </div>
