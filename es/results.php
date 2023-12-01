@@ -46,7 +46,7 @@ $result = $conn->query($sql);
           <div class="container">
             <h1 class="display-4"><?=$total_rows?></h1>
             <p class="lead">Total</p>
-            <p><span style="color:red">rojo</span> es incorrecto; <span style="color:verde">verde</span> es correcto.</p>
+            <p><span style="color:red">rojo</span> es incorrecto; <span style="color:green">verde</span> es correcto.</p>
           </div>
         </div>
         <div class="list-group" id="list-tab" role="tablist">
@@ -57,7 +57,7 @@ $result = $conn->query($sql);
                     <small><span class="badge badge-success p-1" style="font-size:12px;"><?=$r["puan_total"]?></span></small>
                 </div>
                 <small>Level/Curso: <?=$r["Sinif"]?><br><?php 
-                if($r["Cinsiyet"]=="1"){echo "Woman";}elseif($r["Cinsiyet"]=="2"){echo "Man";}else{echo "Other";}?> - <?=$r["OkulNo"]?> - <?=date_format(date_create($r["Date_"]),"d.m.Y H:i")?></small>
+                if($r["Cinsiyet"]=="1"){echo "Mujer";}elseif($r["Cinsiyet"]=="2"){echo "Hombre";}else{echo "Otro";}?> - <?=$r["OkulNo"]?> - <?=date_format(date_create($r["Date_"]),"d.m.Y H:i")?></small>
             </a>
         <?php } ?>
         </div>
