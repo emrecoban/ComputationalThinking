@@ -1041,7 +1041,7 @@
                       <ul id="otoKuafor" class="list-group">
                         <li class="list-group-item list-group-item-action bg-dark text-white" data-arac="1">Coche negro</li>
                         <li class="list-group-item list-group-item-action bg-danger text-white" data-arac="2">Coche rojo</li>
-                        <li class="list-group-item list-group-item-action bg-success text-white" data-arac="3">Coche ecológico</li>
+                        <li class="list-group-item list-group-item-action bg-success text-white" data-arac="3">Coche verde</li>
                         <li class="list-group-item list-group-item-action bg-warning" data-arac="4">Coche amarillo</li>
                         <li class="list-group-item list-group-item-action bg-primary text-white" data-arac="5">Coche azul</li>
                       </ul>
