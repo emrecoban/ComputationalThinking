@@ -147,7 +147,7 @@
               <div class="card-body">
 
                 <div class="form-group">
-                  <label for="inputCity">Apodo: 4 NÚMEROS de DNI, del 3º al 6º, más 4 NÚMEROS para el DÍA y MES de nacimiento, con 2 dígitos para día y dos dígitos para mes. 
+                  <label for="inputCity">Apodo:<br />4 NÚMEROS de DNI, del 3º al 6º, más 4 NÚMEROS para el DÍA y MES de nacimiento, con 2 dígitos para día y dos dígitos para mes. 
 <br />Ejemplo: si tu DNI es 09856471W y naciste el 7 de abril, tu código será: 85640704</label>
                   <input type="text" class="form-control text-uppercase" id="adsoyad" name="adsoyad" maxlength="30" data-uyari="Apodo" required>
                 </div>
