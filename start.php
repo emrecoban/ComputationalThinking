@@ -147,7 +147,7 @@
               <div class="card-body">
 
                 <div class="form-group">
-                  <label for="inputCity">Nickname</label>
+                  <label for="inputCity">Nickname / Code <br/>4 ID NUMBERS, from the 3rd to the 6th, plus 4 NUMBERS for the DAY and MONTH of birth, with 2 digits for the day and two digits for the month. Example: if your ID is W0<span style="color:green">9856</span>471 and you were born on <span style="color:brown">April 7</span>, your code will be: <span style="color:green">9856</span><span style="color:brown">0704</span><br/></label>
                   <input type="text" class="form-control text-uppercase" id="adsoyad" name="adsoyad" maxlength="30" data-uyari="Profile: Nickname" required>
                 </div>
                 <div class="form-row">
